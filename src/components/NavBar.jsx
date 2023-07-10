@@ -10,6 +10,7 @@ import {
     XMarkIcon,
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
+import { Link } from 'react-router-dom'
 
 
 //imported images
@@ -108,9 +109,9 @@ export default function Example() {
                     <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
                         Blogs
                     </a>
-                    <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+                    <Link to="/about" className="text-sm font-semibold leading-6 text-gray-900 cursor-pointer">
                         About Us
-                    </a>
+                    </Link>
                 </Popover.Group>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
                     <a

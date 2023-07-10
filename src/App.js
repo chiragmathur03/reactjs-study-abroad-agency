@@ -1,17 +1,26 @@
 import NavBar from './components/NavBar';
-import Carousel from './components/home/Carousel';
-import Body from '../src/components/home/Body';
 import Footer from './components/Footer';
+import Home from './pages/Home';
+import About from './pages/About';
+import Programs from './pages/Programs';
+import Blogs from './pages/Blogs';
+import Error from './pages/Error';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 
 function App() {
   return (
-    <>
-      <NavBar />
-      <Carousel />
-      <Body />
-      <Footer />
-    </>
+    <Router>
+      {/* <NavBar /> */}
+      <Routes>
+        <Route path='/' element={<Home /> } />
+        <Route path='/about' element={<About /> } />  
+        <Route path='/programs' element={<Programs /> } />
+        <Route path='/blogs' element={<Blogs /> } />
+        <Route path='/error' element={<Error /> } />
+      </Routes>
+      {/* <Footer /> */}
+    </Router>
   )
 }
 

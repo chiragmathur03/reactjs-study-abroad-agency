@@ -72,9 +72,8 @@ const Body = () => {
                                     height="24"
                                 />
                             </svg>
-                            <span className="relative">Our</span>
-                        </span>{' '}
-                        Features
+                            <span className="relative">Features</span>
+                        </span>
                     </h2>
                     <p className="text-base text-gray-700 md:text-lg">
                         Our entire team works enthusiastically to guide you about HeadStart Programs
@@ -236,10 +235,9 @@ const Body = () => {
                                     />
                                 </svg>
                             </div>
-                            <h6 className="mb-2 font-semibold leading-5">The quick fox</h6>
+                            <h6 className="mb-2 font-semibold leading-5">Expertise</h6>
                             <p className="mb-3 text-sm text-gray-900">
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                accusantium rem aperiam, eaque ipsa quae. Sit error voluptatem.
+                                Our team consists of experienced and qualified professionals with in-depth knowledge of the education systems and admission processes of various countries.
                             </p>
                         </div>
                     </div>
@@ -260,11 +258,9 @@ const Body = () => {
                                     />
                                 </svg>
                             </div>
-                            <h6 className="mb-2 font-semibold leading-5">Leverage agile</h6>
+                            <h6 className="mb-2 font-semibold leading-5">Customized Solutions</h6>
                             <p className="mb-3 text-sm text-gray-900">
-                                Storage shed, troughs feed bale manure, is garden wheat oats at
-                                augers. Bulls at rose garden cucumbers mice sunflower wheat in
-                                pig.
+                                We understand that each student is unique, and we provide personalized solutions based on their individual needs and requirements.
                             </p>
                         </div>
                     </div>
@@ -285,13 +281,111 @@ const Body = () => {
                                     />
                                 </svg>
                             </div>
-                            <h6 className="mb-2 font-semibold leading-5">Organically grow</h6>
+                            <h6 className="mb-2 font-semibold leading-5">Transparency</h6>
                             <p className="mb-3 text-sm text-gray-900">
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                accusantium rem aperiam, eaque ipsa quae. Sit error voluptatem.
+                                We maintain complete transparency throughout the process, and our students are regularly updated about the progress of their application.
                             </p>
                         </div>
                     </div>
+                    <div className="p-8 border-b lg:border-r">
+                        <div className="max-w-md text-center">
+                            <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16">
+                                <svg
+                                    className="w-8 h-8 text-deep-purple-accent-400 sm:w-12 sm:h-12"
+                                    stroke="currentColor"
+                                    viewBox="0 0 52 52"
+                                >
+                                    <polygon
+                                        strokeWidth="3"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        fill="none"
+                                        points="29 13 14 29 25 29 23 39 38 23 27 23"
+                                    />
+                                </svg>
+                            </div>
+                            <h6 className="mb-2 font-semibold leading-5">Affordable Services</h6>
+                            <p className="mb-3 text-sm text-gray-900">
+                                We believe that everyone deserves quality education and we offer the lowest fee packages.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="p-8 border-b sm:border-r">
+                        <div className="max-w-md text-center">
+                            <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16">
+                                <svg
+                                    className="w-8 h-8 text-deep-purple-accent-400 sm:w-12 sm:h-12"
+                                    stroke="currentColor"
+                                    viewBox="0 0 52 52"
+                                >
+                                    <polygon
+                                        strokeWidth="3"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        fill="none"
+                                        points="29 13 14 29 25 29 23 39 38 23 27 23"
+                                    />
+                                </svg>
+                            </div>
+                            <h6 className="mb-2 font-semibold leading-5">University Selection</h6>
+                            <p className="mb-3 text-sm text-gray-900">
+                                We help students select the right course, college or university, and country based on their academic profile, interests, and budget.
+                            </p>
+                        </div>
+                    </div>
+
+                    {/* First */}
+                    <div className="p-8 border-b">
+                        <div className="max-w-md text-center">
+                            <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16">
+                                <svg
+                                    className="w-8 h-8 text-deep-purple-accent-400 sm:w-12 sm:h-12"
+                                    stroke="currentColor"
+                                    viewBox="0 0 52 52"
+                                >
+                                    <polygon
+                                        strokeWidth="3"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        fill="none"
+                                        points="29 13 14 29 25 29 23 39 38 23 27 23"
+                                    />
+                                </svg>
+                            </div>
+                            <h6 className="mb-2 font-semibold leading-5">Assistance Guidance</h6>
+                            <p className="mb-3 text-sm text-gray-900">
+                                We assist students in the entire application process, including filling out application forms, writing SOPs, essays, and letters of recommendation etc.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    {/* Second */}
+                    <div className="p-8 border-b sm:border-r lg:border-b-0">
+                        <div className="max-w-md text-center">
+                            <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16">
+                                <svg
+                                    className="w-8 h-8 text-deep-purple-accent-400 sm:w-12 sm:h-12"
+                                    stroke="currentColor"
+                                    viewBox="0 0 52 52"
+                                >
+                                    <polygon
+                                        strokeWidth="3"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        fill="none"
+                                        points="29 13 14 29 25 29 23 39 38 23 27 23"
+                                    />
+                                </svg>
+                            </div>
+                            <h6 className="mb-2 font-semibold leading-5">Visa Assistance</h6>
+                            <p className="mb-3 text-sm text-gray-900">
+                                We guide students through the visa process, including preparing the required documents, scheduling visa workshops, and providing guidance on visa interview preparation.
+                            </p>
+                        </div>
+                    </div>
+
+                    {/* Third */}
                     <div className="p-8 border-b lg:border-b-0 lg:border-r">
                         <div className="max-w-md text-center">
                             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16">
@@ -309,15 +403,13 @@ const Body = () => {
                                     />
                                 </svg>
                             </div>
-                            <h6 className="mb-2 font-semibold leading-5">Have a good one</h6>
+                            <h6 className="mb-2 font-semibold leading-5">Pre-Departure Briefing</h6>
                             <p className="mb-3 text-sm text-gray-900">
-                                Storage shed, troughs feed bale manure, is garden wheat oats at
-                                augers. Bulls at rose garden cucumbers mice sunflower wheat in
-                                pig.
+                                We provide students with a comprehensive briefing on what to expect once they reach their destination country, including information on accommodation, travel, and orientation.
                             </p>
                         </div>
                     </div>
-                    <div className="p-8 border-b sm:border-b-0 sm:border-r">
+                    <div className="p-8 sm:border-r lg:border-r-0">
                         <div className="max-w-md text-center">
                             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16">
                                 <svg
@@ -334,35 +426,9 @@ const Body = () => {
                                     />
                                 </svg>
                             </div>
-                            <h6 className="mb-2 font-semibold leading-5">Trough pomfret</h6>
+                            <h6 className="mb-2 font-semibold leading-5">Scholarship Assistance</h6>
                             <p className="mb-3 text-sm text-gray-900">
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                accusantium rem aperiam, eaque ipsa quae. Sit error voluptatem.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="p-8">
-                        <div className="max-w-md text-center">
-                            <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16">
-                                <svg
-                                    className="w-8 h-8 text-deep-purple-accent-400 sm:w-12 sm:h-12"
-                                    stroke="currentColor"
-                                    viewBox="0 0 52 52"
-                                >
-                                    <polygon
-                                        strokeWidth="3"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        fill="none"
-                                        points="29 13 14 29 25 29 23 39 38 23 27 23"
-                                    />
-                                </svg>
-                            </div>
-                            <h6 className="mb-2 font-semibold leading-5">Disrupt inspire</h6>
-                            <p className="mb-3 text-sm text-gray-900">
-                                Storage shed, troughs feed bale manure, is garden wheat oats at
-                                augers. Bulls at rose garden cucumbers mice sunflower wheat in
-                                pig.
+                                We provide information on available scholarships and assist students in applying.
                             </p>
                         </div>
                     </div>
@@ -405,8 +471,6 @@ const Body = () => {
                     </div>
                 </div>
             </div>
-
-
         </div>
     )
 }

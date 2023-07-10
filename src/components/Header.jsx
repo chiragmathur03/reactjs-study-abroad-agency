@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Carousel = () => {
+const Header = () => {
   return (
     <div className="relative isolate px-6 pt-14 lg:px-8">
       <div
@@ -61,4 +61,4 @@ const Carousel = () => {
   )
 }
 
-export default Carousel
+export default Header
