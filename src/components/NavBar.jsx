@@ -22,7 +22,7 @@ const programs = [
     // { name: 'Automations', description: 'Build strategic funnels that will convert', href: '#', icon: ArrowPathIcon },
 ]
 const callsToAction = [
-    { name: 'Go To Programs', href: '/programs', icon: QueueListIcon },
+    { name: 'Go To Programs ->', href: '/programs', icon: QueueListIcon },
 ]
 
 function classNames(...classes) {
@@ -155,11 +155,17 @@ export default function Example() {
                     <div className="mt-6 flow-root">
                         <div className="-my-6 divide-y divide-gray-500/10">
                             <div className="space-y-2 py-6">
+                                <Link
+                                    to="/"
+                                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-700 hover:bg-gray-50"
+                                >
+                                    Home
+                                </Link>
                                 <Disclosure as="div" className="-mx-3">
                                     {({ open }) => (
                                         <>
                                             <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-700 hover:bg-gray-50">
-                                                Product
+                                                Programs
                                                 <ChevronDownIcon
                                                     className={classNames(open ? 'rotate-180' : '', 'h-5 w-5 flex-none')}
                                                     aria-hidden="true"
@@ -171,7 +177,7 @@ export default function Example() {
                                                         key={item.name}
                                                         as="a"
                                                         href={item.href}
-                                                        className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                                                        className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-700 hover:bg-gray-50"
                                                     >
                                                         {item.name}
                                                     </Disclosure.Button>
