@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -20,29 +21,28 @@ const Header = () => {
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
               Announcing our Latest Program for Medical Students.{' '}
-              <a href="#" className="font-semibold text-indigo-600 ">
+              <a href="#" className="font-semibold text-primary">
                 <span className="absolute inset-0" aria-hidden="true" />
                 Read more <span aria-hidden="true">&rarr;</span>
               </a>
             </div>
           </div>
           <div className="text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Create Pathways for Students to Study Abroad.
+            <h1 className="text-4xl font-semibold tracking-tight text-gray-800 sm:text-6xl">
+              Create Pathways for Students to <span className='text-primary font-bold'>Study Abroad</span>.
             </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
-              We Think About You & Strive to Deliver the Best Because You Deserve the Best.
+            <p className="mt-6 text-base text-gray-600 font-medium">
+              We Think About You & Strive to Deliver the Best Because <span className='font-bold'>You Deserve the Best.</span>
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <a
-                href="#"
-                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-              >
+              <Link
+                to="/connect"
+                className="btn">
                 Connect
-              </a>
-              <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+              </Link>
+              <Link to="/programs" className="text-sm font-semibold leading-6 text-gray-600 hover:text-gray-700">
                 Our Programs <span aria-hidden="true">→</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

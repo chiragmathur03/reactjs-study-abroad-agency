@@ -9,7 +9,7 @@ module.exports = withMT({
     extend: {
       colors: {
         'primary': '#70467E',
-        'primary-hover': '#70467ef2'
+        'primary-hover': '#643f71'
       }
     },
   },
