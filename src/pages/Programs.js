@@ -2,12 +2,12 @@ import React from 'react'
 import { BookOpenIcon, BanknotesIcon, StarIcon, BriefcaseIcon, AcademicCapIcon, CheckCircleIcon } from '@heroicons/react/24/outline'
 
 //Icons
-import { SiAntdesign, SiHelpscout, SiFampay } from 'react-icons/si';
-import TbMoneybag from 'react-icons/tb'
+// import { SiAntdesign, SiHelpscout, SiFampay } from 'react-icons/si';
+// import TbMoneybag from 'react-icons/tb'
 
 //Images
 import brandicon from '../assets/brandlogo.png'
-import brandiconmd from '../assets/brandlogomd.png'
+// import brandiconmd from '../assets/brandlogomd.png'
 import bhaskar from '../assets/testimonials/Bhaskar Khatri.png'
 import { Link } from 'react-router-dom'
 
@@ -52,18 +52,18 @@ const features = [
 
 ]
 
-const links = [
-  { name: 'Open roles', href: '#' },
-  { name: 'Internship program', href: '#' },
-  { name: 'Our values', href: '#' },
-  { name: 'Meet our leadership', href: '#' },
-]
-const stats = [
-  { name: 'Offices worldwide', value: '12' },
-  { name: 'Full-time colleagues', value: '300+' },
-  { name: 'Hours per week', value: '40' },
-  { name: 'Paid time off', value: 'Unlimited' },
-]
+// const links = [
+//   { name: 'Open roles', href: '#' },
+//   { name: 'Internship program', href: '#' },
+//   { name: 'Our values', href: '#' },
+//   { name: 'Meet our leadership', href: '#' },
+// ]
+// const stats = [
+//   { name: 'Offices worldwide', value: '12' },
+//   { name: 'Full-time colleagues', value: '300+' },
+//   { name: 'Hours per week', value: '40' },
+//   { name: 'Paid time off', value: 'Unlimited' },
+// ]
 
 const Programs = () => {
   return (

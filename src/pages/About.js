@@ -3,7 +3,7 @@ import React from 'react'
 import { AtSymbolIcon, PhoneArrowUpRightIcon, BuildingOfficeIcon } from '@heroicons/react/20/solid'
 
 //images
-import blue from '../../src/assets/about/blue.jpg'
+// import blue from '../../src/assets/about/blue.jpg'
 import blueboy from '../../src/assets/about/blueboy.jpg'
 import brown from '../../src/assets/about/brown.jpg'
 import gray from '../../src/assets/about/gray.jpg'
