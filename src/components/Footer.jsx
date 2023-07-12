@@ -17,9 +17,9 @@ const Footer = () => {
 
                         <img className="h-10 w-auto" src={brandimg} alt="brandlogo" />
 
-                        <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 ">
+                        {/* <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 ">
                             Headstart
-                        </span>
+                        </span> */}
                     </a>
                     <div className="mt-4 lg:max-w-sm">
                         <p className="text-sm text-gray-800">
