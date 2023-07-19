@@ -12,6 +12,7 @@ import { LiaUniversitySolid, LiaHandsHelpingSolid } from 'react-icons/lia';
 import { MdOutlineAssignment } from 'react-icons/md';
 import { TiTickOutline } from 'react-icons/ti';
 import { TbProgressCheck } from 'react-icons/tb';
+import { FaArrowRight } from 'react-icons/fa';
 
 //Components
 import Features from './Features';
@@ -22,34 +23,34 @@ const Body = () => {
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
 
             {/* Stats */}
-            <div className=" pb-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="pb-16 grid gap-8 grid-cols-2 lg:grid-cols-4">
                 <div className="text-center">
                     <div className="flex items-center justify-center w-16 h-16 mx-auto mb-3 rounded-full bg-cyan-50">
                         <PiStudent className="w-8 h-8  sm:w-10 sm:h-10 text-cyan-800" />
                     </div>
-                    <h6 className="text-2xl lg:text-4xl font-bold text-cyan-800">25000+</h6>
-                    <p className="mb-2 font-bold text-md text-gray-600">Student Counselled</p>
+                    <h6 className="text-xl sm:text-2xl lg:text-4xl font-bold text-cyan-800">25000+</h6>
+                    <p className="text-base mb-2 font-semibold text-gray-600">Student Counselled</p>
                 </div>
                 <div className="text-center">
                     <div className="flex items-center justify-center w-16 h-16 mx-auto mb-3 rounded-full bg-indigo-50">
                         <SlBadge className="w-8 h-8  sm:w-10 sm:h-10 text-indigo-400" />
                     </div>
-                    <h6 className="text-2xl lg:text-4xl font-bold text-indigo-400">3000+</h6>
-                    <p className="mb-2 font-bold text-md text-gray-600">Placed Successfully</p>
+                    <h6 className="text-xl sm:text-2xl lg:text-4xl font-bold text-indigo-400">3000+</h6>
+                    <p className="text-base mb-2 font-semibold text-gray-600">Placed Successfully</p>
                 </div>
                 <div className="text-center">
                     <div className="flex items-center justify-center w-16 h-16 mx-auto mb-3 rounded-full bg-green-50">
                         <LuVerified className="w-8 h-8  sm:w-10 sm:h-10 text-green-700" />
                     </div>
-                    <h6 className="text-2xl lg:text-4xl font-bold text-green-700">99%</h6>
-                    <p className="mb-2 font-bold text-md text-gray-600">Visa Success Rate</p>
+                    <h6 className="text-xl sm:text-2xl lg:text-4xl font-bold text-green-700">99%</h6>
+                    <p className="text-base mb-2 font-semibold text-gray-600">Visa Success Rate</p>
                 </div>
                 <div className="text-center">
                     <div className="flex items-center justify-center w-16 h-16 mx-auto mb-3 rounded-full bg-orange-50">
                         <AiOutlineStar className="w-8 h-8  sm:w-10 sm:h-10 text-orange-900" />
                     </div>
-                    <h6 className="text-2xl lg:text-4xl font-bold text-orange-900">20+</h6>
-                    <p className="mb-2 font-bold text-md text-gray-600">Years of Experience</p>
+                    <h6 className="text-xl sm:text-2xl lg:text-4xl font-bold text-orange-900">20+</h6>
+                    <p className="text-base mb-2 font-semibold text-gray-600">Years of Experience</p>
                 </div>
             </div>
 
@@ -66,8 +67,8 @@ const Body = () => {
                             <h2 className="mb-4 text-3xl font-bold text-primary sm:text-4xl md:text-[40px]">
                                 Why Us?
                             </h2>
-                            <p className="text-xl text-gray-600 font-semibold">
-                                9 Main Reasons to Choose HeadStart
+                            <p className="text-base text-gray-600 font-medium mb-10">
+                                9 Main Reasons to Choose Headstart
                             </p>
                         </div>
                     </div>
@@ -182,54 +183,25 @@ const Body = () => {
 
 
             {/* Program Promise Banner */}
-            <div className="bg-white">
-                <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
-                    <div className="relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl rounded-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
-                        <svg
-                            viewBox="0 0 1024 1024"
-                            className="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0"
-                            aria-hidden="true"
+            <div className="mx-auto py-24 sm:py-32">
+                <div className="bg-cover bg-center h-auto text-white py-16 px-6 object-fill shadow-2xl rounded-2xl sm:rounded-3xl sm:px-20 sm:py-20" style={{ backgroundImage: 'url(https://dl.dropboxusercontent.com/scl/fi/1zf4tfj53xpuekmbbmqy4/promise6.png?rlkey=j69dizr3zuyx0der1sd56qjuc&dl=0)' }}>
+                    <div className="md:w-1/2">
+                        <h2 className="text-3xl font-bold text-white sm:text-4xl">Our Program Promise a Successful International Career.</h2>
+                        <p className="mt-6 text-lg leading-8 text-gray-300">Want to unlock your potential? Join Headstart Programs for success, personalized services, and global job opportunnities.</p>
+                    </div>
+                    <div className='mt-10 flex items-center justify-start gap-x-6'>
+                        <Link
+                            to="/connect"
+                            className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                         >
-                            <circle cx={512} cy={512} r={512} fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" fillOpacity="0.7" />
-                            <defs>
-                                <radialGradient id="759c1415-0410-454c-8f7c-9a820de03641">
-                                    <stop stopColor="#7775D6" />
-                                    <stop offset={1} stopColor="#E935C1" />
-                                </radialGradient>
-                            </defs>
-                        </svg>
-                        <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
-                            <h2 className="text-3xl font-bold text-white sm:text-4xl">
-                                Our Programs Promise a
-                                <br />
-                                Successful International Career.
-                            </h2>
-                            <p className="mt-6 text-lg leading-8 text-gray-300">
-                                Unlock your potential, join HeadStart Programs for success, personalized services, and global job opportunities.
-                            </p>
-                            <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
-                                <Link
-                                    to="/connect"
-                                    className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-                                >
-                                    Let's Connect
-                                </Link>
-                                <Link to="/programs" className="text-sm font-semibold leading-6 text-white">
-                                    Learn more <span aria-hidden="true">→</span>
-                                </Link>
-                            </div>
-                        </div>
-                        <div className="relative mt-16 h-80 lg:mt-8">
-                            <img
-                                className="absolute left-0 top-0 w-[57rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10"
-                                src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
-                                alt="App screenshot"
-                                width={1824}
-                                height={1080}
-                            />
-                        </div>
+                            Connect
+                        </Link>
+                        <Link to="/programs" className="text-sm font-semibold flex gap-1.5 items-center leading-6 text-white hover:text-gray-300">
+                            Our Programs <FaArrowRight />
+                        </Link>
                     </div>
                 </div>
+                <br />
             </div>
         </div>
     )

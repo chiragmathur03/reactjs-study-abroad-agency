@@ -41,8 +41,8 @@ const Features = () => {
                             <span className="relative text-primary">Features</span>
                         </span>
                     </h2>
-                    <p className="text-base text-gray-600 font-medium mb-10">
-                        Our entire team works enthusiastically to guide you about HeadStart Programs
+                    <p className="text-sm lg:text-base text-gray-600 font-medium mb-10">
+                        Our entire team works enthusiastically to guide you about Headstart Programs
                         which give you the following benefits:
                     </p>
                 </div>
@@ -103,7 +103,7 @@ const FeatureCard = ({ icon, title, details }) => {
         <>
             {/* <div className="w-full px-4 md:w-1/2 lg:w-1/3"> */}
             <div className="mt-10 px-2 w-1/2 lg:w-1/6">
-                <div className="mb-2 rounded-[20px] bg-white p-5 shadow-md hover:shadow-lg md:px-2 xl:px-5">
+                <div className="mb-2 rounded-[20px] bg-white p-5 shadow-md md:px-2 xl:px-5">
                     <div
                         className={`mb-6 flex h-[60px] w-[60px] p-3 items-center justify-center rounded-2xl bg-primary`}>
                         {icon}

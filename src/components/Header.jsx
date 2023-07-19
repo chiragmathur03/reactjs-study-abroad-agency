@@ -1,6 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+//icons
+import { FaArrowRight } from 'react-icons/fa'
+
 const Header = () => {
   return (
     <>
@@ -29,10 +32,10 @@ const Header = () => {
           </div>
           <div className="text-center">
             <h1 className="text-4xl font-semibold tracking-tight text-gray-800 sm:text-5xl">
-              Create Pathways for Students to <span className='text-primary font-bold'>Study Abroad</span>.
+              Create Pathways for Students to <span className='text-primary'>Study Abroad</span>.
             </h1>
             <p className="mt-6 text-sm text-gray-600 font-medium lg:text-base">
-              We Think About You & Strive to Deliver the Best Because <span className='font-bold'>You Deserve the Best.</span>
+              We Think About You & Strive to Deliver the Best Because <span className='font-semibold'>You Deserve the Best.</span>
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
@@ -40,8 +43,8 @@ const Header = () => {
                 className="btn">
                 Connect
               </Link>
-              <Link to="/programs" className="text-sm font-semibold leading-6 text-gray-600 hover:text-gray-700">
-                Our Programs <span aria-hidden="true">→</span>
+              <Link to="/programs" className="text-sm font-semibold flex items-center  gap-1.5 leading-6 text-gray-600 hover:text-gray-700">
+                Our Programs<FaArrowRight />
               </Link>
             </div>
           </div>
