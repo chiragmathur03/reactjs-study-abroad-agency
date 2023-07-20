@@ -1,0 +1,43 @@
+/* .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff; */
+
+  /* Note- Center slide text vertically */
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+/* swiper.css */
+
+/* Styles for navigation buttons (prev and next) */
+.swiper-button-prev {
+  color: #70467E; /* Change the color as per your preference */
+}
+
+.swiper-button-next {
+  color: #70467E; /* Change the color as per your preference */
+}
+
+/* Styles for pagination bullets */
+.swiper-pagination-bullet-active {
+  background-color: #70467E; /* Change the color as per your preference */
+  opacity: 0.8; /* Adjust opacity as needed */
+}
+
+.swiper-container {
+  padding: 50px; /* Adjust the padding as per your preference */
+}

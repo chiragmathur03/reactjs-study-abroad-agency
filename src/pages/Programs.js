@@ -1,15 +1,16 @@
-import React from 'react'
-import { BookOpenIcon, BanknotesIcon, StarIcon, BriefcaseIcon, AcademicCapIcon, CheckCircleIcon } from '@heroicons/react/24/outline'
+import React from 'react';
+import { BookOpenIcon, BanknotesIcon, StarIcon, BriefcaseIcon, AcademicCapIcon, CheckCircleIcon } from '@heroicons/react/24/outline';
+
+import { Link } from 'react-router-dom';
+
 
 //Icons
-// import { SiAntdesign, SiHelpscout, SiFampay } from 'react-icons/si';
-// import TbMoneybag from 'react-icons/tb'
+import { FaArrowRight } from 'react-icons/fa'
 
-//Images
-import brandicon from '../assets/brandlogo.png'
-// import brandiconmd from '../assets/brandlogomd.png'
-import bhaskar from '../assets/testimonials/Bhaskar Khatri.png'
-import { Link } from 'react-router-dom'
+//components
+import Testimonial from '../components/Testimonial';
+import ProgramHero from '../components/ProgramHero';
+
 
 
 const features = [
@@ -70,8 +71,8 @@ const Programs = () => {
     <>
 
       {/* Header */}
-      <div className="mb-16">
-        <div className="bg-gray-100">
+      {/* <div className="mb-16">
+        <div className="bg-gray-500">
           <div className="pt-40 px-4 py-20 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 lg:pt-40">
             <div className="max-w-xl mb-10 md:mx-auto text-center lg:max-w-2xl md:mb-12">
               <div>
@@ -103,16 +104,16 @@ const Programs = () => {
                       height="24"
                     />
                   </svg>
-                  <span className="relative">The</span>
+                  <span className="relative">Headstart</span>
                 </span>{' '}
-                HeadStart Programs are Budget-Friendly.
+                Programs are Budget-Friendly.
               </h2>
               <p className="text-sm text-gray-600 font-medium lg:text-base">
                 The carefully hand-picked HeadStart Programs benefit you in a big way as they guarantee you financial freedom,
                 ensure better universities, provide successful international career and thus help you make right study abroad decision.
               </p>
             </div>
-            {/* <div className="flex items-center sm:justify-center">
+            <div className="flex items-center sm:justify-center">
               <button
                 type="submit"
                 className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
@@ -126,75 +127,12 @@ const Programs = () => {
               >
                 Learn more
               </a>
-            </div> */}
+            </div>
           </div>
         </div>
-        {/* <div className="relative px-4 sm:px-0">
-          <div className="absolute inset-0 bg-gray-100 h-1/2" />
-          <div className="relative grid mx-auto overflow-hidden bg-white divide-y rounded shadow sm:divide-y-0 sm:divide-x sm:max-w-screen-sm sm:grid-cols-3 lg:max-w-screen-md">
-            <div className="inline-block p-8 text-center">
-              <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50">
-                <svg
-                  className="w-10 h-10 text-deep-purple-accent-400"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    strokeWidth="3"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  />
-                </svg>
-              </div>
-              <p className="font-bold tracking-wide text-gray-800">
-                Make it better
-              </p>
-            </div>
-            <div className="inline-block p-8 text-center">
-              <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50">
-                <svg
-                  className="w-10 h-10 text-deep-purple-accent-400"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    strokeWidth="3"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  />
-                </svg>
-              </div>
-              <p className="font-bold tracking-wide text-gray-800">
-                Do it faster
-              </p>
-            </div>
-            <div className="inline-block p-8 text-center">
-              <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50">
-                <svg
-                  className="w-10 h-10 text-deep-purple-accent-400"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    strokeWidth="3"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  />
-                </svg>
-              </div>
-              <p className="font-bold tracking-wide text-gray-800">
-                Working harder
-              </p>
-            </div>
-          </div>
-        </div> */}
-      </div>
+      </div> */}
+
+      <ProgramHero />
 
       {/* Cards */}
       {/* <section>
@@ -233,13 +171,13 @@ const Programs = () => {
 
       {/* Why Headstart */}
       <div className="bg-white py-24 sm:py-32">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl lg:text-center">
+        <div className="flex flex-col items-center mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl text-center">
             {/* <h2 className="text-base font-semibold leading-7 text-indigo-600">Deploy faster</h2> */}
-            <p className="mt-2 text-3xl font-bold tracking-tight text-primary sm:text-4xl">
+            <p className="mt-2 text-3xl font-semibold tracking-tight text-primary sm:text-4xl">
               Why Headstart Programs?
             </p>
-            <p className="mt-6 text-base text-gray-600 font-medium">
+            <p className="mt-6 text-sm lg:text-base text-gray-600 font-medium">
               You can explore the features that we provide with fun and have their own feature.
             </p>
           </div>
@@ -253,24 +191,27 @@ const Programs = () => {
                     </div>
                     {feature.name}
                   </dt>
-                  <dd className="mt-2 text-base leading-7 text-gray-600">{feature.description}</dd>
+                  {/* mt-6 text-sm text-gray-600 font-medium lg:text-base */}
+                  <dd className="mt-2 text-sm font-medium lg:text-base leading-7 text-gray-600">{feature.description}</dd>
                 </div>
               ))}
             </dl>
           </div>
-          <h2 className="mt-12 font-semibold leading-7 text-primary hover:text-primary-hover cursor-pointer lg:text-center">Learn More -> </h2>
+          <div className="flex items-center gap-1.5 mt-12 font-semibold leading-7 text-primary hover:text-gray-600 cursor-pointer lg:text-center">
+            Learn More <FaArrowRight />
+          </div>
         </div>
       </div>
 
-      {/* Content */}
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-36">
+      {/* Content - Everyone can take benefits */}
+      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-28">
         <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
           {/* <div>
             <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
               Brand new
             </p>
           </div> */}
-          <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-primary sm:text-4xl md:mx-auto">
+          <h2 className="max-w-lg mb-6 text-3xl font-semibold leading-none tracking-tight text-primary sm:text-4xl text-center sm:mx-auto">
             <span className="relative inline-block">
               <svg
                 viewBox="0 0 52 24"
@@ -298,36 +239,36 @@ const Programs = () => {
             </span>{' '}
             Can Take Benefits
           </h2>
-          <p className="text-base text-gray-600 md:text-lg">
+          <p className="text-sm font-medium lg:text-base text-gray-600 md:text-lg text-center">
             Accessible education for all. Affordable programs to Unlock your potential and achieve your goals.
           </p>
         </div>
         <img
           className="object-cover w-full h-56 rounded shadow-lg lg:hidden"
-          src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+          src="https://dl.dropboxusercontent.com/scl/fi/mzkr1zmdek16s1fbgdin5/common.jpg?rlkey=c3d99zldyqrgxzf3nzns9t7y7&dl=0"
           alt=""
         />
-        <div className="hidden lg:grid max-w-screen-lg gap-8 row-gap-5 mb-8 sm:grid-cols-2 lg:grid-cols-4 sm:mx-auto">
+        <div className="hidden lg:grid max-w-screen-lg gap-8 row-gap-5 mb-8 sm:grid-cols-2 lg:grid-cols-3 sm:mx-auto">
           <img
-            className="object-cover w-full h-56 rounded shadow-lg"
-            src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+            className="object-cover w-full h-56 shadow-2xl rounded-2xl sm:rounded-3xl"
+            src="https://dl.dropboxusercontent.com/scl/fi/ktv016xouzzhif78mu9f7/highschool.jpg?rlkey=yul0ffnnm8tjnc3npshphyoe8&dl=0"
             alt=""
           />
           <img
-            className="object-cover w-full h-56 rounded shadow-lg"
-            src="https://images.pexels.com/photos/3182746/pexels-photo-3182746.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+            className="object-cover w-full h-56 shadow-2xl rounded-2xl sm:rounded-3xl"
+            src="https://dl.dropboxusercontent.com/scl/fi/9los9266k6btpmraze6co/ug.jpg?rlkey=av09wkbwvf7lqoipfbnssp973&dl=0"
             alt=""
           />
           <img
-            className="object-cover w-full h-56 rounded shadow-lg"
-            src="https://images.pexels.com/photos/3184311/pexels-photo-3184311.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
+            className="object-cover w-full h-56 shadow-2xl rounded-2xl sm:rounded-3xl"
+            src="https://dl.dropboxusercontent.com/scl/fi/w6umea0ooxx1x7fstb42q/professional.jpg?rlkey=dsq0rux43ogvu7uph085wau8n&dl=0"
             alt=""
           />
-          <img
-            className="object-cover w-full h-56 rounded shadow-lg"
+          {/* <img
+            className="object-cover w-full h-56 shadow-2xl rounded-2xl sm:rounded-3xl"
             src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
             alt=""
-          />
+          /> */}
         </div>
         <div className='mt-16 text-justify text-base text-gray-600 space-y-8'>
           <p>
@@ -344,130 +285,47 @@ const Programs = () => {
 
         </div>
       </div>
-
+      <div className='mt-14'></div>
       {/* Testimonials */}
-      <section className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:px-8">
-        <div className="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] opacity-20" />
-        <div className="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center" />
-        <div className="mx-auto max-w-2xl lg:max-w-4xl">
-          <img className="mx-auto w-32 lg:w-44" src={brandicon} alt="branding" />
-          <figure className="mt-10">
-            <blockquote className="text-center text-base font-semibold leading-7 text-gray-600 sm:text-2xl sm:leading-9">
-              <p>
-                “The Entire Education and the visa process was simplified for me with the help of systematic approch of the excellent counselors at Headstart.”
-              </p>
-            </blockquote>
-            <figcaption className="mt-10">
-              <img
-                className="mx-auto h-24 w-24 rounded-full"
-                src={bhaskar}
-                alt="Bhaskar Khatri"
-              />
-              <div className="mt-4 flex items-center justify-center space-x-3 text-base">
-                <div className="font-semibold text-gray-800">Bhaskar Khatri</div>
-                <svg viewBox="0 0 2 2" width={3} height={3} aria-hidden="true" className="fill-gray-900">
-                  <circle cx={1} cy={1} r={1} />
-                </svg>
-                <div className="text-gray-600">Masters (Nursing) in Australia</div>
-              </div>
-            </figcaption>
-          </figure>
-        </div>
-      </section>
+      <Testimonial />
 
-      {/* CTA */}
-      <section className="px-6 py-20 lg:py-[120px] lg:px-14">
-        <div className="container">
-          <div
-            className={`relative z-10 overflow-hidden rounded-3xl bg-primary py-12 px-8 md:p-[70px]`}
-          >
-            <div className="flex flex-wrap items-center -mx-4">
-              <div className="w-full px-4 lg:w-1/2">
-                {/* <span className="mb-2 text-base font-semibold text-white">
-                  Find Your Next Dream App
-                </span> */}
-                <h2 className="mb-6 text-2xl font-semibold leading-tight text-white sm:mb-8 sm:text-[38px] lg:mb-0 lg:text-3xl lg:font-bold lg:w-[60%]">
-                  Get started with our Programs
-                </h2>
-              </div>
-              <div className="w-full px-4 lg:w-1/2">
-                <div className="flex flex-wrap space-x-4 lg:justify-end">
-                  <Link
-                    to="/connect"
-                    // className='my-1 cursor-pointer inline-block rounded bg-white py-4 px-6 text-base font-medium text-black transition hover:bg-opacity-90 md:px-9 lg:px-6 xl:px-9'           
-                    className='my-1 cursor-pointer inline-block rounded bg-white py-2 px-4 text-base font-medium text-primary transition hover:bg-opacity-95 sm:py-4 md:px-9 lg:px-6 xl:px-9 lg:py-4'
-                  >
+      {/* CTA - Get Started */}
+      <div className="mt-20 py-16 bg-white">
+        <div className="container m-auto px-6 space-y-8 text-gray-500 lg:px-20">
+          <div className="justify-center text-center gap-6 lg:text-left lg:flex lg:items-center lg:gap-16">
+            <div className="order-last mb-6 space-y-6 lg:mb-0 lg:w-6/12">
+              <h1 className="text-3xl text-gray-800 font-semibold tracking-tight sm:text-4xl">Get Started with our <span className="text-primary">Program.</span></h1>
+              <p className=" text-base text-gray-600 md:text-lg mb-12">Join our program and embark on your international educational journey today.</p>
+
+              <div className="flex flex-wrap justify-center gap-4 lg:justify-start">
+                <button type="button" className="w-max py-3 px-6 text-center rounded-xl transition bg-primary shadow-xl hover:bg-primary-hover active:bg-primary focus:bg-primary-hover">
+                  <span className="block text-white font-semibold">
                     Connect
-                  </Link>
-                </div>
+                  </span>
+                </button>
+                <button type="button" className="w-max py-3 px-6 text-center justify-center rounded-xl bg-gray-100 transition hover:bg-gray-200 active:bg-gray-300 focus:bg-gray-200">
+                  {/* <span className="block text-gray-600 font-semibold"> */}
+                  <span className="flex items-center gap-1.5 text-gray-600 font-semibold">
+                    Our Programs <FaArrowRight />
+                  </span>
+                </button>
               </div>
             </div>
-            <div>
-              <span className="absolute top-0 left-0 z-[-1]">
-                <svg
-                  width={189}
-                  height={162}
-                  viewBox="0 0 189 162"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <ellipse
-                    cx={16}
-                    cy="-16.5"
-                    rx={173}
-                    ry="178.5"
-                    transform="rotate(180 16 -16.5)"
-                    fill="url(#paint0_linear)"
-                  />
-                  <defs>
-                    <linearGradient
-                      id="paint0_linear"
-                      x1={-157}
-                      y1="-107.754"
-                      x2="98.5011"
-                      y2="-106.425"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stopColor="white" stopOpacity="0.07" />
-                      <stop offset={1} stopColor="white" stopOpacity={0} />
-                    </linearGradient>
-                  </defs>
-                </svg>
-              </span>
-              <span className="absolute bottom-0 right-0 z-[-1]">
-                <svg
-                  width={191}
-                  height={208}
-                  viewBox="0 0 191 208"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <ellipse
-                    cx={173}
-                    cy="178.5"
-                    rx={173}
-                    ry="178.5"
-                    fill="url(#paint0_linear)"
-                  />
-                  <defs>
-                    <linearGradient
-                      id="paint0_linear"
-                      x1="-3.27832e-05"
-                      y1="87.2457"
-                      x2="255.501"
-                      y2="88.5747"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stopColor="white" stopOpacity="0.07" />
-                      <stop offset={1} stopColor="white" stopOpacity={0} />
-                    </linearGradient>
-                  </defs>
-                </svg>
-              </span>
+            <div className="mt-28 lg:mt-0 grid grid-cols-5 grid-rows-4 gap-4 lg:w-6/12">
+              <div className="col-span-2 row-span-4">
+                {/* <img src="https://dl.dropboxusercontent.com/scl/fi/3t0d7giyh4chiwmvowl1u/1.jpg?rlkey=zbpqh971s5bu3ic8us913pkb8&dl=0" className="rounded-full" width="640" height="960" alt="shoes" loading="lazy" />    */}
+                <img src="https://dl.dropboxusercontent.com/scl/fi/3t0d7giyh4chiwmvowl1u/1.jpg?rlkey=zbpqh971s5bu3ic8us913pkb8&dl=0" className="rounded-full shadow-2xl" width="640" height="960" alt="Student with Books" />
+              </div>
+              <div className="col-span-2 row-span-2">
+                <img src="https://dl.dropboxusercontent.com/scl/fi/ont67gwrw0iyuoveelh5r/3.jpg?rlkey=c0nb31kq4cutd2tebvm6967jk&dl=0" className="w-full h-full object-cover object-top shadow-2xl rounded-2xl sm:rounded-3xl" width="640" height="640" alt="Student Holding Degree" />
+              </div>
+              <div className="col-span-3 row-span-3">
+                <img src="https://dl.dropboxusercontent.com/scl/fi/uu2dzzxsxwd0zgq319727/2.jpg?rlkey=q1kf1th31uq7tdh0bek4q4x6i&dl=0" className="w-full h-full object-cover object-top shadow-2xl rounded-2xl sm:rounded-3xl" width="640" height="427" alt="Student Sitting with Bag" />
+              </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
 
     </>
   )
