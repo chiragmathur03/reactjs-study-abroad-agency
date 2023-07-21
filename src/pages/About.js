@@ -2,20 +2,6 @@ import React from 'react'
 // import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
 import { AtSymbolIcon, PhoneArrowUpRightIcon, BuildingOfficeIcon } from '@heroicons/react/20/solid'
 
-//images
-// import blue from '../../src/assets/about/blue.jpg'
-import blueboy from '../../src/assets/about/blueboy.jpg'
-import brown from '../../src/assets/about/brown.jpg'
-import gray from '../../src/assets/about/gray.jpg'
-import green from '../../src/assets/about/green.jpg'
-import pink from '../../src/assets/about/pink.jpg'
-import purple from '../../src/assets/about/purple.jpg'
-import yellow from '../../src/assets/about/yellow.jpg'
-
-import commitment from '../../src/assets/about/commitments.jpg'
-import objective from '../../src/assets/about/objective.jpg'
-import studentbenefit from '../../src/assets/about/benefit.jpg'
-
 const About = () => {
   return (
     <>
@@ -166,14 +152,14 @@ const About = () => {
                       <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                         <div className="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
                           <img
-                            src={yellow}
+                            src='https://dl.dropboxusercontent.com/scl/fi/nx65dcou48gt7iguo3ymv/yellow.jpg?rlkey=hpboyxx5nwg562wgc2jzvbmwb&dl=0'
                             alt="Yellow"
                             className="h-full w-full object-cover object-center"
                           />
                         </div>
                         <div className="h-64 w-44 overflow-hidden rounded-lg">
                           <img
-                            src={blueboy}
+                            src='https://dl.dropboxusercontent.com/scl/fi/mo9jx0nfc20wfr6m3vmsm/blueboy.jpg?rlkey=eh745dwfsiqz2qiesgtq8zu0h&dl=0'
                             alt="Blue"
                             className="h-full w-full object-cover object-center"
                           />
@@ -182,21 +168,21 @@ const About = () => {
                       <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                         <div className="h-64 w-44 overflow-hidden rounded-lg">
                           <img
-                            src={brown}
+                            src='https://dl.dropboxusercontent.com/scl/fi/5tm3aqvgd2r85ydw0zadq/brownboy.jpg?rlkey=79x6gk8j6lv8258f7giescanq&dl=0'
                             alt="Brown"
                             className="h-full w-full object-cover object-center"
                           />
                         </div>
                         <div className="h-64 w-44 overflow-hidden rounded-lg">
                           <img
-                            src={purple}
+                            src='https://dl.dropboxusercontent.com/scl/fi/h1brkiy134tj4pwn6lkhi/purplegirl.jpg?rlkey=8brtat450f0da3gyifpypok9f&dl=0'
                             alt="Purple"
                             className="h-full w-full object-cover object-center"
                           />
                         </div>
                         <div className="h-64 w-44 overflow-hidden rounded-lg">
                           <img
-                            src={gray}
+                            src='https://dl.dropboxusercontent.com/scl/fi/nb9bnzczxi9q0437bx28f/smileywoman.jpg?rlkey=gex0a0o5xw0xne0o10l80dk0g&dl=0'
                             alt="Gray"
                             className="h-full w-full object-cover object-center"
                           />
@@ -205,14 +191,14 @@ const About = () => {
                       <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                         <div className="h-64 w-44 overflow-hidden rounded-lg">
                           <img
-                            src={pink}
+                            src='https://dl.dropboxusercontent.com/scl/fi/n6qrc779mx1ce6umr5ml3/pinkgirl.jpg?rlkey=qxb8fnixchritehduwfnw06iy&dl=0'
                             alt="Pink"
                             className="h-full w-full object-cover object-center"
                           />
                         </div>
                         <div className="h-64 w-44 overflow-hidden rounded-lg">
                           <img
-                            src={green}
+                            src='https://dl.dropboxusercontent.com/scl/fi/9xqk5pei4dmt424n1ubbi/greengirll.jpg?rlkey=qmiy77j2m4d9l1gj4ze9fjala&dl=0'
                             alt="Green"
                             className="h-full w-full object-cover object-center"
                           />
@@ -243,7 +229,7 @@ const About = () => {
           </div>
           <div className="flex flex-col mb-10 animated fadeIn sm:flex-row">
             <div className="flex items-center mb-16 sm:w-1/2 md:w-5/12 sm:order-last">
-              <img className="rounded-lg shadow-xl" src={commitment} alt="Commitments" />
+              <img className="rounded-lg shadow-xl" src='https://dl.dropboxusercontent.com/scl/fi/2xgwdibh2g91woux2fxe5/commitments.jpg?rlkey=9t77lclo7cvwspq2g41hj8k02&dl=0' alt="Commitments" />
             </div>
             <div className="flex flex-col justify-center mt-5 mb-8 md:mt-0 sm:w-1/2 md:w-7/12 sm:pr-16">
               {/* <p className="mb-2 text-sm font-semibold leading-none text-left text-indigo-600 uppercase">Drag-n-drop design</p> */}
@@ -254,7 +240,7 @@ const About = () => {
           </div>
           <div className="flex flex-col mb-10 animated fadeIn sm:flex-row">
             <div className="flex items-center mb-16 sm:w-1/2 md:w-5/12">
-              <img className="rounded-lg shadow-xl" src={objective} alt="Objective" />
+              <img className="rounded-lg shadow-xl" src='https://dl.dropboxusercontent.com/scl/fi/gjye4ck4gsu1h6ykd5yj9/objective.jpg?rlkey=4efckjkjbdx4xrrtjkaudtvb5&dl=0' alt="Objective" />
             </div>
             <div className="flex flex-col justify-center mt-5 mb-8 md:mt-0 sm:w-1/2 md:w-7/12 sm:pl-16">
               {/* <p className="mb-2 text-sm font-semibold leading-none text-left text-indigo-600 uppercase">know your data</p> */}
@@ -264,7 +250,7 @@ const About = () => {
           </div>
           <div className="flex flex-col mb-10 animated fadeIn sm:flex-row">
             <div className="flex items-center mb-16 sm:w-1/2 md:w-5/12 sm:order-last">
-              <img className="rounded-lg shadow-xl" src={studentbenefit} alt="Student Benefits" />
+              <img className="rounded-lg shadow-xl" src='https://dl.dropboxusercontent.com/scl/fi/o7utsbd4uuljdpwq5juu1/benefits.jpg?rlkey=ykxlj2hbqxk7pv711ok1lhzzx&dl=0' alt="Student Benefits" />
             </div>
             <div className="flex flex-col justify-center mt-5 mb-8 md:mt-0 sm:w-1/2 md:w-7/12 sm:pr-16">
               {/* <p className="mb-2 text-sm font-semibold leading-none text-left text-indigo-600 uppercase">Easy to customize</p> */}
@@ -309,32 +295,41 @@ const About = () => {
       </section>
 
       {/* Contact Info */}
-      <div className="2xl:container 2xl:mx-auto md:py-12 py-9">
-        <div className="bg-gray-50 dark:bg-gray-800 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-8 md:gap-12 gap-14 lg:px-20 lg:py-12 py-10 md:px-12 px-4 rounded-2xl shadow-lg">
-          <div>
-            <AtSymbolIcon className='w-8 text-gray-500' />
-            <h3 className="text-xl leading-5 dark:text-white font-semibold text-gray-800 lg:mt-10 mt-8">Email</h3>
-            <p className="text-base leading-6 font-normal dark:text-gray-300 text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">info@headstart.co.in</p>
+      <section className="bg-white">
+        <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+          <div className="mx-auto mb-8 lg:mb-16 text-center">
+
+            {/* <h2 className="w-full text-3xl font-bold text-center sm:text-4xl text-primary">About Us
+            <p className="w-full py-8 mx-auto -mt-2 text-base text-center text-gray-600 font-medium sm:max-w-3xl"> */}
+
+            <h2 className="mb-4 text-3xl tracking-tight font-bold text-primary sm:text-4xl">Contact Us</h2>
+            <p className="text-gray-600 font-medium text-base">Get guidance on country selection, intake, deadlines, tests, and eligibility criteria.</p>
           </div>
-
-
-          <div>
-            <PhoneArrowUpRightIcon className='w-8 text-gray-500' />
-            <h3 className="text-xl leading-5 dark:text-white font-semibold text-gray-800 lg:mt-10 mt-8">Contact</h3>
-            <p className="text-base leading-6 font-normal dark:text-gray-300 text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">+91 72268 12550, <br /> +91 72268 41550
-            </p>
-          </div>
-
-
-          <div>
-            <BuildingOfficeIcon className='w-8 text-gray-500' />
-            <h3 className="text-xl leading-5 dark:text-white font-semibold text-gray-800 lg:mt-10 mt-8">Address</h3>
-            <p className="text-base leading-6 font-normal dark:text-gray-300 text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">
-              608-A, Pinnacle Business Park, Corporate Road, Prahladnagar, Ahmedabad
-            </p>
+          <div className="space-y-8 flex flex-col items-start justify-center sm:grid sm:grid-cols-3 sm:gap-5 lg:gap-12 sm:space-y-0 text-center">
+            <div className='flex flex-col items-center'>
+              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-gray-200 lg:h-12 lg:w-12 shadow-xl">
+                <AtSymbolIcon className='w-6 text-gray-600' />
+              </div>
+              <h3 className="mb-2 font-bold text-gray-800 ">Email</h3>
+              <p className="text-gray-600 w-52 sm:w-fit">info@headstart.co.in</p>
+            </div>
+            <div className='flex flex-col items-center'>
+              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-gray-200 lg:h-12 lg:w-12 shadow-xl">
+                <PhoneArrowUpRightIcon className='w-6 text-gray-600' />
+              </div>
+              <h3 className="mb-2 font-bold text-gray-800">Phone</h3>
+              <p className="text-gray-600">+91 72268 12550 / <br /> +91 72268 41550</p>
+            </div>
+            <div className='flex flex-col items-center'>
+              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-gray-200 lg:h-12 lg:w-12 shadow-xl">
+                <BuildingOfficeIcon className='w-6 text-gray-600' />
+              </div>
+              <h3 className="mb-2 font-bold text-gray-800">Address</h3>
+              <p className="text-gray-600 w-52 sm:w-fit">608-A, Pinnacle Business Park, Corporate Road, Prahladnagar, Ahmedabad</p>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   )
 }
