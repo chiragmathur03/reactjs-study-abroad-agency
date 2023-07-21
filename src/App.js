@@ -6,6 +6,8 @@ import Programs from './pages/Programs';
 import Blogs from './pages/Blogs';
 import Error from './pages/Error';
 import Connect from './pages/Connect';
+import BlogPost from './components/BlogPost';
+
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 
@@ -15,9 +17,10 @@ function App() {
       <NavBar />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/aboutus' element={<About />} />
+        <Route path='/about' element={<About />} />
         <Route path='/programs' element={<Programs />} />
         <Route path='/blogs' element={<Blogs />} />
+        <Route path='/post' element={<BlogPost />} />
         <Route path='/connect' element={<Connect />} />
         <Route path='*' element={<Error />} />
       </Routes>
