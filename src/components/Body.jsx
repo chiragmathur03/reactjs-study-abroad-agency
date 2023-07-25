@@ -15,7 +15,7 @@ import { TbProgressCheck } from 'react-icons/tb';
 import { FaArrowRight } from 'react-icons/fa';
 
 //Components
-import Features from './Features';
+import FeaturesOld from './FeaturesOld';
 import { Link } from 'react-router-dom';
 
 const Body = () => {
@@ -23,7 +23,7 @@ const Body = () => {
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
 
             {/* Stats */}
-            <div className="pb-16 grid gap-8 grid-cols-2 lg:grid-cols-4">
+            {/* <div className="pb-16 grid gap-8 grid-cols-2 lg:grid-cols-4">
                 <div className="text-center">
                     <div className="flex items-center justify-center w-16 h-16 mx-auto mb-3 rounded-full bg-cyan-50">
                         <PiStudent className="w-8 h-8  sm:w-10 sm:h-10 text-cyan-800" />
@@ -52,9 +52,9 @@ const Body = () => {
                     <h6 className="text-xl sm:text-2xl lg:text-4xl font-bold text-orange-900">20+</h6>
                     <p className="text-base mb-2 font-semibold text-gray-600">Years of Experience</p>
                 </div>
-            </div>
+            </div> */}
 
-            <Features />
+            <FeaturesOld />
 
             {/* Why Us */}
             <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">

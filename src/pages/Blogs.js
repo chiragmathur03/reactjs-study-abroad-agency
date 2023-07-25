@@ -96,7 +96,7 @@ const Blogs = () => {
                     </Link>
                   </div>
                 </div>
-                <img src="https://i.ibb.co/3yvZBpm/img-5.png" className="w-full rounded-2xl" alt="chair" />
+                <img src="https://dl.dropboxusercontent.com/scl/fi/fu11du27gb657j3086r6s/coaching.jpg?rlkey=xat769aatctdrcrngsdb8bach&dl=0" className="w-full rounded-2xl" alt="chair" />
               </div>
               <div className="relative w-full sm:mt-0 mt-4">
                 <div>

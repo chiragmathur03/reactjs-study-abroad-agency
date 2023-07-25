@@ -6,8 +6,8 @@ import { FaArrowRight } from 'react-icons/fa'
 
 const Header = () => {
   return (
-    <>
-      <div className="relative isolate px-6 pt-14 lg:px-8">
+    <div>
+      <div className="relative isolate px-10 pt-14 lg:px-8">
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
           aria-hidden="true"
@@ -20,8 +20,8 @@ const Header = () => {
             }}
           />
         </div>
-        <div className="mx-auto max-w-2xl py-36 sm:py-16 lg:py-28">
-          <div className="hidden sm:mb-8 sm:flex sm:justify-center">
+        <div className="mx-auto lg:max-w-2xl">
+          <div className="hidden md:mb-8 md:flex md:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
               Announcing our Latest Program for Medical Students.{' '}
               <Link to="#" className="font-semibold text-primary">
@@ -32,7 +32,7 @@ const Header = () => {
           </div>
           <div className="text-center">
             <h1 className="text-4xl font-semibold tracking-tight text-gray-800 sm:text-5xl">
-              Create Pathways for Students to <span className='text-primary'>Study Abroad</span>.
+              Create Pathways for Students to <span className='text-primary shadow-md'>Study Abroad.</span>
             </h1>
             <p className="mt-6 text-sm text-gray-600 font-medium lg:text-base">
               We Think About You & Strive to Deliver the Best Because <span className='font-semibold'>You Deserve the Best.</span>
@@ -62,7 +62,7 @@ const Header = () => {
           />
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
