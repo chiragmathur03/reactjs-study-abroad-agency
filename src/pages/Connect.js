@@ -12,8 +12,8 @@ const Connect = () => {
     const [agreed, setAgreed] = useState(false);
 
     return (
-        // Form
-        <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
+        // <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8"> --original
+        <div className="isolate mt-44 mb-36 p-6 mx-auto max-w-sm sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
             <div
                 className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
                 aria-hidden="true"
@@ -32,7 +32,8 @@ const Connect = () => {
                 <p className="text-sm lg:text-base font-medium text-center text-gray-600 mt-4 lg:w-1/2 md:w-10/12 w-11/12">Stay updated with our news and blog for valuable insights and resources. Join our community and access the latest trends and opportunities in education.</p>
             </div> */}
 
-            <div className="mx-auto max-w-2xl text-center mt-28 ">
+            {/* <div className="mx-auto max-w-2xl text-center mt-28 "> --original */}
+            <div className="mx-auto text-center">
                 <h2 className="text-3xl font-semibold tracking-tight text-primary sm:text-4xl">Contact Us</h2>
                 <p className="mt-2 text-sm lg:text-base font-medium text-gray-600">
                     We are here to assist you on your study abroad journey.

@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom'
 
 const Error = () => {
     return (
-        <main className="grid min-h-full place-items-center bg-white px-6 my-20 sm:py-32 lg:px-8">
-        <div className="text-center">
+        // <main className="grid min-h-full place-items-center bg-white px-6 my-20 sm:py-32 lg:px-8"> --original
+        <main className="grid min-h-full place-items-center mt-44 mb-36 p-6 mx-auto max-w-sm sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
+        <div className="h-screen text-center">
           <p className="text-base font-semibold text-primary">404</p>
           <h1 className="mt-4 text-3xl font-bold tracking-tight text-gray-800 sm:text-5xl">Page not found</h1>
           <p className="mt-6 text-base leading-7 text-gray-600">Sorry, we couldn’t find the page you’re looking for.</p>
