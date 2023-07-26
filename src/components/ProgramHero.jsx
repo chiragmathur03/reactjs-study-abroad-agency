@@ -19,7 +19,7 @@ const ProgramHero = () => {
     return (
         <>
             <section className="overflow-hidden">
-                <div className="pt-16 lg:pt-48 pb-24 lg:pb-52 bg-purple-50 overflow-hidden">
+                <div className="pt-20 pb-14 bg-purple-50 overflow-hidden">
                     <div className="px-10 mx-auto py-36 sm:px-20 sm:py-16 lg:py-28">
                         <div className="flex flex-wrap -m-8">
                             <div className="w-full md:w-1/2 p-8">
@@ -50,7 +50,7 @@ const ProgramHero = () => {
                                         ensure better universities, provide successful international career and thus help you make right study abroad decision.
                                     </p>
                                     <div className="max-w-lg">
-                                        <div className="flex flex-wrap -m-1.5 items-center">
+                                        <div className="flex flex-wrap m-1.5 items-center">
                                             <div className="w-auto p-1.5">
                                                 <div className="flex flex-wrap">
                                                     <div className="w-auto">

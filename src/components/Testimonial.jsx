@@ -21,14 +21,15 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 const Testimonial = () => {
     return (
-        <>
-            <div className="px-4 py-16 mx-auto max-w-2xl text-center">
+        <div className="space-y-8">
+            {/* <div className="px-4 py-16 mx-auto max-w-2xl text-center"> */}
+            <div className="text-center">
                 {/* <h2 className="text-base font-semibold leading-7 text-indigo-600">Deploy faster</h2> */}
-                <h2 className="mt-2 mb-6 text-3xl font-semibold tracking-tight text-primary sm:text-4xl">
+                <h2 className="mb-6 text-3xl font-semibold tracking-tight text-primary sm:text-4xl">
                     Our Student Reviews
                 </h2>
-                <p className="text-base text-gray-600 md:text-lg mb-12">
-                   Trusted by Thousands of Students.
+                <p className="text-base text-gray-600 md:text-lg">
+                    Trusted by Thousands of Students.
                 </p>
             </div>
             <section className="relative isolate overflow-hidden bg-white">
@@ -128,7 +129,7 @@ const Testimonial = () => {
                     </figure>
                 </div>
             </section>
-        </>
+        </div>
     )
 
 
