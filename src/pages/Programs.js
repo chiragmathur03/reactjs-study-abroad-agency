@@ -5,7 +5,7 @@ import ProgramHero from '../components/ProgramHero'
 import WhyPrograms from '../components/WhyPrograms'
 import Benefits from '../components/Benefits'
 import Testimonial from '../components/Testimonial'
-import CTA from '../components/CTA'
+import PCTA from '../components/PCTA'
 
 const Programs = () => {
     return (
@@ -17,7 +17,7 @@ const Programs = () => {
                     <Benefits />
                 </div>
                 <Testimonial />
-                <CTA />
+                <PCTA />
             </div>
         </>
     )

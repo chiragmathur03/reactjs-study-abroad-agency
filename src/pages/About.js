@@ -219,7 +219,7 @@ const About = () => {
         </div>
       </div>
 
-      {/* Body */}
+      {/* About */}
       <section className="py-40 bg-white">
         <div className="flex flex-col px-8 mx-auto space-y-12 max-w-7xl xl:px-12">
           <div className="relative">
@@ -262,7 +262,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* Benefits */}
+      {/* Programs Benefit */}
       <section className="py-16 bg-white">
         <div className="flex flex-col px-8 mx-auto space-y-12 max-w-7xl xl:px-12">
           <div className="relative">

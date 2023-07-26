@@ -3,7 +3,7 @@ import React from 'react'
 //icons
 import { FaArrowRight } from 'react-icons/fa'
 
-const CTA = () => {
+const PCTA = () => {
   return (
     // <div className="mt-20 py-16 bg-white">
     <div className="">
@@ -46,4 +46,4 @@ const CTA = () => {
   )
 }
 
-export default CTA
+export default PCTA
