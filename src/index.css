@@ -2,7 +2,14 @@
 @tailwind components;
 
 .btn {
-    @apply rounded-md bg-primary px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-primary-hover focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white
+    @apply w-max rounded-xl transition bg-primary px-4 py-3 text-sm font-semibold text-white text-center shadow-xl hover:bg-primary-hover
+     focus:bg-primary-hover
 }
+
+.btn-secondary{
+    @apply w-max flex rounded-xl transition bg-gray-100/70 px-4 py-3 text-sm font-semibold text-center text-gray-600 items-center gap-1.5 
+    hover:bg-gray-200 focus:bg-gray-200
+}
+
 
 @tailwind utilities;    

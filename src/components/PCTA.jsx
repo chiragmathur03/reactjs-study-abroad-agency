@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 //icons
 import { FaArrowRight } from 'react-icons/fa'
@@ -15,17 +16,16 @@ const PCTA = () => {
             <p className=" text-base text-gray-600 md:text-lg mb-12">Join our program and embark on your international educational journey today.</p>
 
             <div className="flex flex-wrap justify-center gap-4 lg:justify-start">
-              <button type="button" className="w-max py-3 px-6 text-center rounded-xl transition bg-primary shadow-xl hover:bg-primary-hover active:bg-primary focus:bg-primary-hover">
+              <Link to='/connect' type="button" className="w-max py-3 px-6 text-center rounded-xl transition bg-primary shadow-xl hover:bg-primary-hover active:bg-primary focus:bg-primary-hover">
                 <span className="block text-white font-semibold">
                   Connect
                 </span>
-              </button>
-              <button type="button" className="w-max py-3 px-6 text-center justify-center rounded-xl bg-gray-100 transition hover:bg-gray-200 active:bg-gray-300 focus:bg-gray-200">
-                {/* <span className="block text-gray-600 font-semibold"> */}
+              </Link>
+              {/* <button type="button" className="w-max py-3 px-6 text-center justify-center rounded-xl bg-gray-100 transition hover:bg-gray-200 active:bg-gray-300 focus:bg-gray-200">
                 <span className="flex items-center gap-1.5 text-gray-600 font-semibold">
                   Our Programs <FaArrowRight />
                 </span>
-              </button>
+              </button> */}
             </div>
           </div>
           <div className="mt-28 lg:mt-0 grid grid-cols-5 grid-rows-4 gap-4 lg:w-6/12">
@@ -42,7 +42,7 @@ const PCTA = () => {
           </div>
         </div>
       </div>
-    </div >
+    </div>
   )
 }
 

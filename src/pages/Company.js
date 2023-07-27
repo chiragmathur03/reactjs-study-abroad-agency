@@ -4,7 +4,7 @@ import React from 'react'
 import CompanyHero from '../components/CompanyHero'
 import AboutInfo from '../components/AboutInfo'
 import ProgramBenefits from '../components/ProgramBenefits'
-import CCTA from '../components/CCTA'
+import ContactUs from '../components/ContactUs'
 
 // mt-36 mb-36 p-6 mx-auto max-w-sm sm:max-w-xl md:max-w-full lg:max-w-screen-xl space-y-40
 const Company = () => {
@@ -14,7 +14,7 @@ const Company = () => {
       <div className='p-6 mx-auto max-w-sm sm:max-w-xl md:max-w-full lg:max-w-screen-xl space-y-40'>
         <AboutInfo />
         <ProgramBenefits />
-        <CCTA />
+        <ContactUs />
       </div>
     </div>
   )
