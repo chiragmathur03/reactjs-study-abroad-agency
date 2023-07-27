@@ -4,6 +4,9 @@ import { useState } from 'react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import { Switch } from '@headlessui/react'
 
+//icons
+import { RiInstagramFill, RiFacebookFill, RiTwitterFill, RiYoutubeFill } from 'react-icons/ri';
+
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
@@ -177,6 +180,31 @@ const Connect = () => {
                     </button>
                 </div>
             </form>
+
+            <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+                <a href="mailto:info@headstart.co.in" className="text-primary hover:text-gray-500">info@headstart.co.in</a>
+                <p className="leading-normal my-5 text-gray-700 hover:text-gray-500">
+                    <a href="https://goo.gl/maps/Rko9qVf1rBpS9qe2A">
+                        608-A, Pinnacle Business Park
+                        <br />Corporate Road, Prahladnagar, Ahmedabad
+                    </a>
+                </p>
+                <span className="inline-flex">
+                    <a className="text-gray-500 hover:text-[#3b5998] cursor-pointer text-xl">
+                        <RiFacebookFill />
+                    </a>
+                    <a className="ml-4 text-gray-500 hover:text-[#26a7de] cursor-pointer text-xl">
+                        <RiTwitterFill />
+                    </a>
+                    <a className="ml-4 text-gray-500 hover:text-[#e2457a] cursor-pointer text-xl">
+                        <RiInstagramFill />
+                    </a>
+                    <a className="ml-4 text-gray-500 hover:text-[#CD201F] cursor-pointer text-xl">
+                        <RiYoutubeFill />
+                    </a>
+                </span>
+            </div>
+
         </div>
     )
 }
