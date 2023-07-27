@@ -18,17 +18,17 @@ const Blogs = () => {
                 <div>
                   <p className="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">12 April 2021</p>
                   <div className="absolute bottom-0 left-0 p-6">
-                    <h2 className="text-xl font-semibold 5 text-white hover:underline">How to finance your studies in Germany</h2>
+                    <h2 className="text-xl font-semibold 5 text-white">How to finance your studies in Germany</h2>
                     {/* <p className="text-base leading-4 text-white mt-2">Dive into minimalism</p> */}
-                    <div to="/post" className="focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
-                      <p className="pr-2 text-sm font-medium leading-none">Read More</p>
+                    <div to="/post" className="underline focus:no-underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:no-underline">
+                      <p className="pr-2 text-sm font-medium leading-none">Read in 2 minutes</p>
                       <svg className="fill-stroke" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M5.75 12.5L10.25 8L5.75 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                       </svg>
                     </div>
                   </div>
                 </div>
-                <img src="https://i.ibb.co/DYxtCJq/img-1.png" className="w-full rounded-2xl" alt="chair" />
+                <img src="https://dl.dropboxusercontent.com/scl/fi/x4rhxn0977k6xuloi7b9f/finance.jpg?rlkey=9sidug2lx539gkqw1sy23mxqz&dl=0" className="w-full rounded-2xl" alt="finance" />
               </Link>
 
               <div className="sm:w-1/2 sm:mt-0 mt-4 relative">
@@ -37,15 +37,15 @@ const Blogs = () => {
                   <div className="absolute bottom-0 left-0 p-6">
                     <h2 className="text-xl font-semibold 5 text-white">Top 10 interesting facts about Germany</h2>
                     {/* <p className="text-base leading-4 text-white mt-2">Dive into minimalism</p> */}
-                    <Link to="#" className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
-                      <p className="pr-2 text-sm font-medium leading-none">Read More</p>
+                    <Link to="#" className="underline focus:outline-none focus:no-underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:no-underline">
+                      <p className="pr-2 text-sm font-medium leading-none">Read in 2 minutes</p>
                       <svg className="fill-stroke" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M5.75 12.5L10.25 8L5.75 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                       </svg>
                     </Link>
                   </div>
                 </div>
-                <img src="https://i.ibb.co/3C5HvxC/img-2.png" className="w-full rounded-2xl" alt="wall design" />
+                <img src="https://dl.dropboxusercontent.com/scl/fi/cly5402njz0daymi6z2ki/facts.jpg?rlkey=9mxvsnjtpa12y6wzswj1z5qqw&dl=0" className="w-full rounded-2xl" alt="germany ballon" />
               </div>
             </div>
 
@@ -55,69 +55,76 @@ const Blogs = () => {
                 <div className="absolute bottom-0 left-0 md:p-10 p-6">
                   <h2 className="text-xl font-semibold 5 text-white">Masters in Germany: Unlocking Academic Excellence and Career Opportunities</h2>
                   {/* <p className="text-base leading-4 text-white mt-2">Dive into minimalism</p> */}
-                  <Link to="#" className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
-                    <p className="pr-2 text-sm font-medium leading-none">Read More</p>
+                  <Link to="#" className="underline focus:outline-none focus:no-underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:no-underline">
+                    <p className="pr-2 text-sm font-medium leading-none">Read in 12 minutes</p>
                     <svg className="fill-stroke" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M5.75 12.5L10.25 8L5.75 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
                   </Link>
                 </div>
               </div>
-              <img src="https://i.ibb.co/Ms4qyXp/img-3.png" alt="sitting place" className="w-full rounded-2xl mt-8 md:mt-6 hidden sm:block" />
-              <img className="w-full rounded-2xl mt-4 sm:hidden" src="https://i.ibb.co/6XYbN7f/Rectangle-29.png" alt="sitting place" />
+              <img src="https://dl.dropboxusercontent.com/scl/fi/6k9kl4d6ji2pl18b7mgab/masters.jpg?rlkey=jpurh0v7rbzowd07knht27oxi&dl=0" alt="student with germany flag" className="w-full rounded-2xl mt-8 md:mt-6 hidden sm:block" />
+              <img className="w-full rounded-2xl mt-4 sm:hidden" src="https://dl.dropboxusercontent.com/scl/fi/6k9kl4d6ji2pl18b7mgab/masters.jpg?rlkey=jpurh0v7rbzowd07knht27oxi&dl=0" alt="student with germany flag" />
             </div>
+
           </div>
+
           <div className="lg:w-1/2 xl:ml-8 lg:ml-4 lg:mt-0 md:mt-6 mt-4 lg:flex flex-col justify-between">
+
             <div className="relative">
               <div>
                 <p className="md:p-10 p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">12 April 2021</p>
                 <div className="absolute bottom-0 left-0 md:p-10 p-6">
                   <h2 className="text-xl font-semibold 5 text-white">Students of 10th & 12th: Which Board to Choose?</h2>
                   {/* <p className="text-base leading-4 text-white mt-2">Dive into minimalism</p> */}
-                  <Link to="#" className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
-                    <p className="pr-2 text-sm font-medium leading-none">Read More</p>
+                  <Link to="#" className="underline  focus:outline-none focus:no-underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:no-underline">
+                    <p className="pr-2 text-sm font-medium leading-none">Read in 8 minutes</p>
                     <svg className="fill-stroke" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M5.75 12.5L10.25 8L5.75 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
                   </Link>
                 </div>
               </div>
-              <img src="https://i.ibb.co/6Wfjf2w/img-4.png" alt="sitting place" className="w-full rounded-2xl sm:block hidden" />
-              <img className="w-full rounded-2xl sm:hidden" src="https://i.ibb.co/dpXStJk/Rectangle-29.png" alt="sitting place" />
+              <img src="https://dl.dropboxusercontent.com/scl/fi/pwxunw7ni23zommvty2kg/confusion.jpg?rlkey=yp7g8ett73dmh5jiwp5rfq3n6&dl=0" alt="confused" className="w-full rounded-2xl sm:block hidden" />
+              <img className="w-full rounded-2xl sm:hidden" src="https://dl.dropboxusercontent.com/scl/fi/pwxunw7ni23zommvty2kg/confusion.jpg?rlkey=yp7g8ett73dmh5jiwp5rfq3n6&dl=0" alt="confused" />
             </div>
+
             <div className="sm:flex items-center justify-between xl:gap-x-8 gap-x-6 md:mt-6 mt-4">
+
               <div className="relative w-full">
                 <div>
                   <p className="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">12 April 2021</p>
                   <div className="absolute bottom-0 left-0 p-6">
                     <h2 className="text-xl font-semibold 5 text-white">Coaching or No Coaching?</h2>
                     {/* <p className="text-base leading-4 text-white mt-2">Dive into minimalism</p> */}
-                    <Link to="#" className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
-                      <p className="pr-2 text-sm font-medium leading-none">Read More</p>
+                    <Link to="#" className="underline focus:outline-none focus:no-underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:no-underline">
+                      <p className="pr-2 text-sm font-medium leading-none">Read in 4 minutes</p>
                       <svg className="fill-stroke" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M5.75 12.5L10.25 8L5.75 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                       </svg>
                     </Link>
                   </div>
                 </div>
-                <img src="https://dl.dropboxusercontent.com/scl/fi/fu11du27gb657j3086r6s/coaching.jpg?rlkey=xat769aatctdrcrngsdb8bach&dl=0" className="w-full rounded-2xl" alt="chair" />
+                <img src="https://dl.dropboxusercontent.com/scl/fi/01w0zfb6bq6a5egfjht4l/coaching.jpg?rlkey=52jhkkfps98ba23pb4a3xzf8z&dl=0" className="w-full rounded-2xl" alt="coaching" />
               </div>
+
               <div className="relative w-full sm:mt-0 mt-4">
                 <div>
                   <p className="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">12 April 2021</p>
                   <div className="absolute bottom-0 left-0 p-6">
                     <h2 className="text-xl font-semibold 5 text-white">Top 10 Interesting Facts about Austria</h2>
                     {/* <p className="text-base leading-4 text-white mt-2">Dive into minimalism</p> */}
-                    <Link to="#" className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
-                      <p className="pr-2 text-sm font-medium leading-none">Read More</p>
+                    <Link to="#" className="underline focus:outline-none focus:no-underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:no-underline">
+                      <p className="pr-2 text-sm font-medium leading-none">Read in 3 minutes</p>
                       <svg className="fill-stroke" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M5.75 12.5L10.25 8L5.75 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                       </svg>
                     </Link>
                   </div>
                 </div>
-                <img src="https://i.ibb.co/gDdnJb5/img-6.png" className="w-full rounded-2xl" alt="wall design" />
+                <img src="https://dl.dropboxusercontent.com/scl/fi/ka9l2692ev5v2qagxmjmx/austriafacts.jpg?rlkey=45jwpm0ospyr1sf9ahn7griaf&dl=0" className="w-full rounded-2xl" alt="girl with books" />
               </div>
+
             </div>
           </div>
         </div>
