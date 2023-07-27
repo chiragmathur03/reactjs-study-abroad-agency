@@ -41,25 +41,25 @@ const Benefits = () => {
                 </p>
             </div>
             <img
-                className="object-cover w-full h-56 rounded shadow-lg lg:hidden"
-                src="https://dl.dropboxusercontent.com/scl/fi/mzkr1zmdek16s1fbgdin5/common.jpg?rlkey=c3d99zldyqrgxzf3nzns9t7y7&dl=0"
+                className="object-cover w-full h-56 rounded-3xl shadow-2xl md:hidden"
+                src="https://dl.dropboxusercontent.com/scl/fi/7n05a7gjr849k0os5nln7/common.jpg?rlkey=5uizsfx9tsuhwcy9u55ybrvrb&dl=0"
                 alt=""
             />
-            <div className="hidden lg:grid max-w-screen-lg gap-8 row-gap-5 mb-8 sm:grid-cols-2 lg:grid-cols-3 sm:mx-auto">
+            <div className="hidden md:grid max-w-screen-lg gap-8 row-gap-5 mb-8 md:grid-cols-3 mx-auto">
                 <img
-                    className="object-cover w-full h-56 shadow-2xl rounded-2xl sm:rounded-3xl"
+                    className="object-cover w-full h-56 shadow-2xl rounded-3xl"
                     src="https://dl.dropboxusercontent.com/scl/fi/ktv016xouzzhif78mu9f7/highschool.jpg?rlkey=yul0ffnnm8tjnc3npshphyoe8&dl=0"
-                    alt=""
+                    alt="Student"
                 />
                 <img
-                    className="object-cover w-full h-56 shadow-2xl rounded-2xl sm:rounded-3xl"
+                    className="object-cover w-full h-56 shadow-2xl rounded-3xl"
                     src="https://dl.dropboxusercontent.com/scl/fi/9los9266k6btpmraze6co/ug.jpg?rlkey=av09wkbwvf7lqoipfbnssp973&dl=0"
-                    alt=""
+                    alt="College Student"
                 />
                 <img
-                    className="object-cover w-full h-56 shadow-2xl rounded-2xl sm:rounded-3xl"
+                    className="object-cover w-full h-56 shadow-2xl rounded-3xl"
                     src="https://dl.dropboxusercontent.com/scl/fi/w6umea0ooxx1x7fstb42q/professional.jpg?rlkey=dsq0rux43ogvu7uph085wau8n&dl=0"
-                    alt=""
+                    alt="Professional"
                 />
                 {/* <img
                     className="object-cover w-full h-56 shadow-2xl rounded-2xl sm:rounded-3xl"

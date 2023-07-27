@@ -53,14 +53,14 @@ const CompanyHero = () => {
                                 <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
                                     <div className="flex items-center space-x-6 lg:space-x-8">
                                         <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                                            <div className="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
+                                            <div className="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100 shadow-2xl">
                                                 <img
                                                     src='https://dl.dropboxusercontent.com/scl/fi/nx65dcou48gt7iguo3ymv/yellow.jpg?rlkey=hpboyxx5nwg562wgc2jzvbmwb&dl=0'
                                                     alt="Yellow"
                                                     className="h-full w-full object-cover object-center"
                                                 />
                                             </div>
-                                            <div className="h-64 w-44 overflow-hidden rounded-lg">
+                                            <div className="h-64 w-44 overflow-hidden rounded-lg shadow-2xl">
                                                 <img
                                                     src='https://dl.dropboxusercontent.com/scl/fi/mo9jx0nfc20wfr6m3vmsm/blueboy.jpg?rlkey=eh745dwfsiqz2qiesgtq8zu0h&dl=0'
                                                     alt="Blue"
@@ -69,21 +69,21 @@ const CompanyHero = () => {
                                             </div>
                                         </div>
                                         <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                                            <div className="h-64 w-44 overflow-hidden rounded-lg">
+                                            <div className="h-64 w-44 overflow-hidden rounded-lg shadow-2xl">
                                                 <img
                                                     src='https://dl.dropboxusercontent.com/scl/fi/5tm3aqvgd2r85ydw0zadq/brownboy.jpg?rlkey=79x6gk8j6lv8258f7giescanq&dl=0'
                                                     alt="Brown"
                                                     className="h-full w-full object-cover object-center"
                                                 />
                                             </div>
-                                            <div className="h-64 w-44 overflow-hidden rounded-lg">
+                                            <div className="h-64 w-44 overflow-hidden rounded-lg shadow-2xl">
                                                 <img
                                                     src='https://dl.dropboxusercontent.com/scl/fi/h1brkiy134tj4pwn6lkhi/purplegirl.jpg?rlkey=8brtat450f0da3gyifpypok9f&dl=0'
                                                     alt="Purple"
                                                     className="h-full w-full object-cover object-center"
                                                 />
                                             </div>
-                                            <div className="h-64 w-44 overflow-hidden rounded-lg">
+                                            <div className="h-64 w-44 overflow-hidden rounded-lg shadow-2xl">
                                                 <img
                                                     src='https://dl.dropboxusercontent.com/scl/fi/nb9bnzczxi9q0437bx28f/smileywoman.jpg?rlkey=gex0a0o5xw0xne0o10l80dk0g&dl=0'
                                                     alt="Gray"
@@ -92,14 +92,14 @@ const CompanyHero = () => {
                                             </div>
                                         </div>
                                         <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                                            <div className="h-64 w-44 overflow-hidden rounded-lg">
+                                            <div className="h-64 w-44 overflow-hidden rounded-lg shadow-2xl">
                                                 <img
                                                     src='https://dl.dropboxusercontent.com/scl/fi/n6qrc779mx1ce6umr5ml3/pinkgirl.jpg?rlkey=qxb8fnixchritehduwfnw06iy&dl=0'
                                                     alt="Pink"
                                                     className="h-full w-full object-cover object-center"
                                                 />
                                             </div>
-                                            <div className="h-64 w-44 overflow-hidden rounded-lg">
+                                            <div className="h-64 w-44 overflow-hidden rounded-lg shadow-2xl">
                                                 <img
                                                     src='https://dl.dropboxusercontent.com/scl/fi/9xqk5pei4dmt424n1ubbi/greengirll.jpg?rlkey=qmiy77j2m4d9l1gj4ze9fjala&dl=0'
                                                     alt="Green"

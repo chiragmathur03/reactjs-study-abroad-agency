@@ -32,7 +32,7 @@ const WhyUs = () => {
             <div className="grid row-gap-8 sm:row-gap-0 sm:grid-cols-2 lg:grid-cols-3">
                 <div className="p-8 border-b sm:border-r">
                     <div className="max-w-md text-center">
-                        <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16">
+                        <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16 shadow-md">
                             <TiTickOutline className='w-8 h-8 text-gray-700' />
                         </div>
                         <h6 className="mb-2 font-semibold leading-5 text-gray-800">Expertise</h6>
@@ -43,7 +43,7 @@ const WhyUs = () => {
                 </div>
                 <div className="p-8 border-b lg:border-r">
                     <div className="max-w-md text-center">
-                        <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16">
+                        <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16 shadow-md">
                             <AiOutlineSolution className='w-10 h-10 text-gray-700' />
                         </div>
                         <h6 className="mb-2 font-semibold leading-5 text-gray-800">Customized Solutions</h6>
@@ -54,7 +54,7 @@ const WhyUs = () => {
                 </div>
                 <div className="p-8 border-b sm:border-r lg:border-r-0">
                     <div className="max-w-md text-center">
-                        <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16">
+                        <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16 shadow-md">
                             <TbProgressCheck className='w-10 h-10 text-gray-700' />
                         </div>
                         <h6 className="mb-2 font-semibold leading-5 text-gray-800">Transparency</h6>
@@ -65,7 +65,7 @@ const WhyUs = () => {
                 </div>
                 <div className="p-8 border-b lg:border-r">
                     <div className="max-w-md text-center">
-                        <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16">
+                        <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16 shadow-md">
                             <RiHandCoinLine className='w-10 h-10 text-gray-700' />
                         </div>
                         <h6 className="mb-2 font-semibold leading-5">Affordable Services</h6>
@@ -76,7 +76,7 @@ const WhyUs = () => {
                 </div>
                 <div className="p-8 border-b sm:border-r">
                     <div className="max-w-md text-center">
-                        <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16">
+                        <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16 shadow-md">
                             <LiaUniversitySolid className='w-10 h-10 text-gray-700' />
                         </div>
                         <h6 className="mb-2 font-semibold leading-5">University Selection</h6>
@@ -88,7 +88,7 @@ const WhyUs = () => {
 
                 <div className="p-8 border-b">
                     <div className="max-w-md text-center">
-                        <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16">
+                        <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16 shadow-md">
                             <LiaHandsHelpingSolid className='w-10 h-10 text-gray-700' />
                         </div>
                         <h6 className="mb-2 font-semibold leading-5">Assistance Guidance</h6>
@@ -101,7 +101,7 @@ const WhyUs = () => {
 
                 <div className="p-8 border-b sm:border-r lg:border-b-0">
                     <div className="max-w-md text-center">
-                        <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16">
+                        <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16 shadow-md">
                             <MdOutlineAssignment className='w-10 h-10 text-gray-700' />
                         </div>
                         <h6 className="mb-2 font-semibold leading-5">Visa Assistance</h6>
@@ -113,7 +113,7 @@ const WhyUs = () => {
 
                 <div className="p-8 border-b lg:border-b-0 lg:border-r">
                     <div className="max-w-md text-center">
-                        <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16">
+                        <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16 shadow-md">
                             <BiUserVoice className='w-10 h-10 text-gray-700' />
                         </div>
                         <h6 className="mb-2 font-semibold leading-5">Pre-Departure Briefing</h6>
@@ -125,7 +125,7 @@ const WhyUs = () => {
 
                 <div className="p-8 sm:border-r lg:border-r-0">
                     <div className="max-w-md text-center">
-                        <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16">
+                        <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16 shadow-md">
                             <SiSemanticscholar className='w-10 h-10 text-gray-700' />
                         </div>
                         <h6 className="mb-2 font-semibold leading-5">Scholarship Assistance</h6>

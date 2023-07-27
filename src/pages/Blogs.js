@@ -28,7 +28,7 @@ const Blogs = () => {
                     </div>
                   </div>
                 </div>
-                <img src="https://dl.dropboxusercontent.com/scl/fi/x4rhxn0977k6xuloi7b9f/finance.jpg?rlkey=9sidug2lx539gkqw1sy23mxqz&dl=0" className="w-full rounded-2xl" alt="finance" />
+                <img src="https://dl.dropboxusercontent.com/scl/fi/x4rhxn0977k6xuloi7b9f/finance.jpg?rlkey=9sidug2lx539gkqw1sy23mxqz&dl=0" className="w-full rounded-2xl shadow-xl" alt="finance" />
               </Link>
 
               <div className="sm:w-1/2 sm:mt-0 mt-4 relative">
@@ -45,7 +45,7 @@ const Blogs = () => {
                     </Link>
                   </div>
                 </div>
-                <img src="https://dl.dropboxusercontent.com/scl/fi/cly5402njz0daymi6z2ki/facts.jpg?rlkey=9mxvsnjtpa12y6wzswj1z5qqw&dl=0" className="w-full rounded-2xl" alt="germany ballon" />
+                <img src="https://dl.dropboxusercontent.com/scl/fi/cly5402njz0daymi6z2ki/facts.jpg?rlkey=9mxvsnjtpa12y6wzswj1z5qqw&dl=0" className="w-full rounded-2xl shadow-xl" alt="germany ballon" />
               </div>
             </div>
 
@@ -63,8 +63,8 @@ const Blogs = () => {
                   </Link>
                 </div>
               </div>
-              <img src="https://dl.dropboxusercontent.com/scl/fi/6k9kl4d6ji2pl18b7mgab/masters.jpg?rlkey=jpurh0v7rbzowd07knht27oxi&dl=0" alt="student with germany flag" className="w-full rounded-2xl mt-8 md:mt-6 hidden sm:block" />
-              <img className="w-full rounded-2xl mt-4 sm:hidden" src="https://dl.dropboxusercontent.com/scl/fi/6k9kl4d6ji2pl18b7mgab/masters.jpg?rlkey=jpurh0v7rbzowd07knht27oxi&dl=0" alt="student with germany flag" />
+              <img src="https://dl.dropboxusercontent.com/scl/fi/6k9kl4d6ji2pl18b7mgab/masters.jpg?rlkey=jpurh0v7rbzowd07knht27oxi&dl=0" alt="student with germany flag" className="w-full rounded-2xl mt-8 md:mt-6 hidden sm:block shadow-xl" />
+              <img className="w-full rounded-2xl mt-4 sm:hidden shadow-xl" src="https://dl.dropboxusercontent.com/scl/fi/6k9kl4d6ji2pl18b7mgab/masters.jpg?rlkey=jpurh0v7rbzowd07knht27oxi&dl=0" alt="student with germany flag" />
             </div>
 
           </div>
@@ -85,8 +85,8 @@ const Blogs = () => {
                   </Link>
                 </div>
               </div>
-              <img src="https://dl.dropboxusercontent.com/scl/fi/pwxunw7ni23zommvty2kg/confusion.jpg?rlkey=yp7g8ett73dmh5jiwp5rfq3n6&dl=0" alt="confused" className="w-full rounded-2xl sm:block hidden" />
-              <img className="w-full rounded-2xl sm:hidden" src="https://dl.dropboxusercontent.com/scl/fi/pwxunw7ni23zommvty2kg/confusion.jpg?rlkey=yp7g8ett73dmh5jiwp5rfq3n6&dl=0" alt="confused" />
+              <img src="https://dl.dropboxusercontent.com/scl/fi/pwxunw7ni23zommvty2kg/confusion.jpg?rlkey=yp7g8ett73dmh5jiwp5rfq3n6&dl=0" alt="confused" className="w-full rounded-2xl sm:block hidden shadow-xl" />
+              <img className="w-full rounded-2xl sm:hidden shadow-xl" src="https://dl.dropboxusercontent.com/scl/fi/pwxunw7ni23zommvty2kg/confusion.jpg?rlkey=yp7g8ett73dmh5jiwp5rfq3n6&dl=0" alt="confused" />
             </div>
 
             <div className="sm:flex items-center justify-between xl:gap-x-8 gap-x-6 md:mt-6 mt-4">
@@ -105,7 +105,7 @@ const Blogs = () => {
                     </Link>
                   </div>
                 </div>
-                <img src="https://dl.dropboxusercontent.com/scl/fi/01w0zfb6bq6a5egfjht4l/coaching.jpg?rlkey=52jhkkfps98ba23pb4a3xzf8z&dl=0" className="w-full rounded-2xl" alt="coaching" />
+                <img src="https://dl.dropboxusercontent.com/scl/fi/01w0zfb6bq6a5egfjht4l/coaching.jpg?rlkey=52jhkkfps98ba23pb4a3xzf8z&dl=0" className="w-full rounded-2xl shadow-xl" alt="coaching" />
               </div>
 
               <div className="relative w-full sm:mt-0 mt-4">
@@ -122,7 +122,7 @@ const Blogs = () => {
                     </Link>
                   </div>
                 </div>
-                <img src="https://dl.dropboxusercontent.com/scl/fi/ka9l2692ev5v2qagxmjmx/austriafacts.jpg?rlkey=45jwpm0ospyr1sf9ahn7griaf&dl=0" className="w-full rounded-2xl" alt="girl with books" />
+                <img src="https://dl.dropboxusercontent.com/scl/fi/ka9l2692ev5v2qagxmjmx/austriafacts.jpg?rlkey=45jwpm0ospyr1sf9ahn7griaf&dl=0" className="w-full rounded-2xl shadow-xl" alt="girl with books" />
               </div>
 
             </div>

@@ -32,7 +32,7 @@ const Header = () => {
           </div>
           <div className="text-center">
             <h1 className="text-4xl font-semibold tracking-tight text-gray-800 sm:text-5xl">
-              Create Pathways for Students to <span className='text-primary shadow-md'>Study Abroad.</span>
+              Create Pathways for Students to <span className='text-primary'>Study Abroad.</span>
             </h1>
             <p className="mt-6 text-sm text-gray-600 font-medium lg:text-base">
               We Think About You & Strive to Deliver the Best Because <span className='font-semibold'>You Deserve the Best.</span>

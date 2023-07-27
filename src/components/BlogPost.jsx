@@ -10,7 +10,7 @@ const BlogPost = () => {
               <address className="flex items-center mb-10 not-italic justify-center">
                 {/* px-10 mx-auto py-36 sm:px-20 sm:py-16 lg:py-28 */}
                 <div className="inline-flex items-center mr-3 text-sm text-gray-900">
-                  <img className="mr-4 w-16 h-16 rounded-full shadow-md" src="https://dl.dropboxusercontent.com/scl/fi/tquj6ut28jey0o3bz6ewl/founder.jpg?rlkey=9qq5d9no36kkzyzes0agllap9&dl=0" alt="founder" />
+                  <img className="mr-4 w-16 h-16 rounded-full shadow-xl" src="https://dl.dropboxusercontent.com/scl/fi/tquj6ut28jey0o3bz6ewl/founder.jpg?rlkey=9qq5d9no36kkzyzes0agllap9&dl=0" alt="founder" />
                   <div>
                     <span className="text-xl font-semibold text-gray-700">Piyush Khandelwal</span>
                     <p className="text-base font-light text-gray-600">Founder, Educator & CEO Headstart</p>
@@ -27,7 +27,7 @@ const BlogPost = () => {
 
             <p className='leading-7 text-base text-gray-600 text-justify'>Studying in Germany can be a rewarding experience, but it's essential to figure out how to manage your finances as an international student. While education in Germany is free, there are still living expenses to consider. At HeadStart, we understand the importance of financial planning, so here are some tips and tricks to help you finance your stay and studies in Germany.</p>
 
-            <figure><img src="https://dl.dropboxusercontent.com/scl/fi/k78g1gtiaw3ugk2tru4bk/finance.jpg?rlkey=fv0aygrwtncb360tbw4oo0w3c&dl=0" className='mt-14 rounded-2xl shadow-xl' alt="" />
+            <figure><img src="https://dl.dropboxusercontent.com/scl/fi/k78g1gtiaw3ugk2tru4bk/finance.jpg?rlkey=fv0aygrwtncb360tbw4oo0w3c&dl=0" className='mt-14 rounded-2xl shadow-2xl' alt="" />
               {/* <figcaption>Digital art by Anonymous</figcaption> */}
             </figure>
             {/* mt-16 text-justify text-base text-gray-600 space-y-8 */}
@@ -68,7 +68,7 @@ const BlogPost = () => {
           <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4 justify-center">
             <article className="max-w-xs">
               <a href="#">
-                <img src="https://dl.dropboxusercontent.com/scl/fi/18884uhlc1q241xlc4a3c/facts.png?rlkey=s4nlp8e6zgu3epx4qi8twjfic&dl=0" className="mb-5 rounded-lg" alt="germany ballon" />
+                <img src="https://dl.dropboxusercontent.com/scl/fi/18884uhlc1q241xlc4a3c/facts.png?rlkey=s4nlp8e6zgu3epx4qi8twjfic&dl=0" className="mb-5 rounded-lg shadow-xl" alt="germany ballon" />
               </a>
               <h2 className="mb-2 text-xl font-bold leading-tight text-gray-800 ">
                 <a href="#">Top 10 interesting facts about Germany</a>
@@ -80,7 +80,7 @@ const BlogPost = () => {
             </article>
             <article className="max-w-xs">
               <a href="#">
-                <img src="https://dl.dropboxusercontent.com/scl/fi/skr7uljjhm49zo8bqopww/masters.png?rlkey=w3w29mgvggy0y0cxlsfivnheq&dl=0" className="mb-5 rounded-lg" alt="student with germany flag" />
+                <img src="https://dl.dropboxusercontent.com/scl/fi/skr7uljjhm49zo8bqopww/masters.png?rlkey=w3w29mgvggy0y0cxlsfivnheq&dl=0" className="mb-5 rounded-lg shadow-xl" alt="student with germany flag" />
               </a>
               <h2 className="mb-2 text-xl font-bold leading-tight text-gray-800 ">
                 <a href="#">Masters in Germany: Unlocking Academic..</a>
@@ -92,7 +92,7 @@ const BlogPost = () => {
             </article>
             <article className="max-w-xs">
               <a href="#">
-                <img src="https://dl.dropboxusercontent.com/scl/fi/m5x4r8gk0mqr2p0iizup6/confusion.png?rlkey=27pk3xae634nr47jofcrilvz3&dl=0" className="mb-5 rounded-lg" alt="confused" />
+                <img src="https://dl.dropboxusercontent.com/scl/fi/m5x4r8gk0mqr2p0iizup6/confusion.png?rlkey=27pk3xae634nr47jofcrilvz3&dl=0" className="mb-5 rounded-lg shadow-xl" alt="confused" />
               </a>
               <h2 className="mb-2 text-xl font-bold leading-tight text-gray-800 ">
                 <a href="#">Students of 10th & 12th: Which Board to Choose?</a>
@@ -104,7 +104,7 @@ const BlogPost = () => {
             </article>
             <article className="max-w-xs">
               <a href="#">
-                <img src="https://dl.dropboxusercontent.com/scl/fi/4lcca8ifiqvl9iy0jw6nv/coaching.png?rlkey=fb8dteocr4eal3t3b83lqeh7x&dl=0" className="mb-5 rounded-lg" alt="coaching" />
+                <img src="https://dl.dropboxusercontent.com/scl/fi/4lcca8ifiqvl9iy0jw6nv/coaching.png?rlkey=fb8dteocr4eal3t3b83lqeh7x&dl=0" className="mb-5 rounded-lg shadow-xl" alt="coaching" />
               </a>
               <h2 className="mb-2 text-xl font-bold leading-tight text-gray-800 ">
                 <a href="#">Coaching or No Coaching?</a>
