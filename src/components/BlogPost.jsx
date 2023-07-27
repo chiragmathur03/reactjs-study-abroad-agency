@@ -6,18 +6,18 @@ import Newsletter from './Newsletter'
 const BlogPost = () => {
   return (
     <>
-      <main className="mt-40 lg:mt-44 pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white">
+      <main className="mt-44 mb-36 p-6 mx-auto max-w-sm sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
         <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
-          <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue">
+          <article className="mx-auto w-full max-w-2xl">
             <header className="mb-4 lg:mb-6">
               <address className="flex items-center mb-10 not-italic justify-center">
                 {/* px-10 mx-auto py-36 sm:px-20 sm:py-16 lg:py-28 */}
                 <div className="inline-flex items-center mr-3 text-sm text-gray-900">
                   <img className="mr-4 w-16 h-16 rounded-full shadow-xl" src="https://dl.dropboxusercontent.com/scl/fi/tquj6ut28jey0o3bz6ewl/founder.jpg?rlkey=9qq5d9no36kkzyzes0agllap9&dl=0" alt="founder" />
                   <div>
-                    <span className="text-xl font-semibold text-gray-700">Piyush Khandelwal</span>
-                    <p className="text-base font-light text-gray-600">Founder, Educator & CEO Headstart</p>
-                    <p className="text-base font-light text-gray-500">
+                    <span className="text-base lg:text-xl font-semibold text-gray-700">Piyush Khandelwal</span>
+                    <p className="text-sm lg:text-base text-gray-600">Founder, Educator & CEO Headstart</p>
+                    <p className="text-sm lg:text-base font-light text-gray-500">
                       <time pubdate datetime="2022-02-08" title="February 8th, 2022">Feb. 8, 2022</time>
                     </p>
                   </div>
@@ -25,16 +25,16 @@ const BlogPost = () => {
               </address>
               <hr className='shadow-xl' />
               {/* mt-2 text-3xl font-semibold tracking-tight text-primary sm:text-4xl */}
-              <h1 className="mt-12 mb-8 text-3xl font-bold text-primary sm:text-4x text-center">How to finance your studies in Germany</h1>
+              <h1 className="mt-12 mb-8 title text-center">How to finance your studies in Germany?</h1>
             </header>
 
-            <p className='leading-7 text-base text-gray-600 text-justify'>Studying in Germany can be a rewarding experience, but it's essential to figure out how to manage your finances as an international student. While education in Germany is free, there are still living expenses to consider. At HeadStart, we understand the importance of financial planning, so here are some tips and tricks to help you finance your stay and studies in Germany.</p>
+            <p className='text'>Studying in Germany can be a rewarding experience, but it's essential to figure out how to manage your finances as an international student. While education in Germany is free, there are still living expenses to consider. At HeadStart, we understand the importance of financial planning, so here are some tips and tricks to help you finance your stay and studies in Germany.</p>
 
             <figure><img src="https://dl.dropboxusercontent.com/scl/fi/k78g1gtiaw3ugk2tru4bk/finance.jpg?rlkey=fv0aygrwtncb360tbw4oo0w3c&dl=0" className='mt-14 rounded-2xl shadow-2xl' alt="" />
               {/* <figcaption>Digital art by Anonymous</figcaption> */}
             </figure>
             {/* mt-16 text-justify text-base text-gray-600 space-y-8 */}
-            <ol className='mt-16 leading-7 space-y-5 text-justify text-base text-gray-600'>
+            <ol className='mt-16 space-y-5 text'>
               <li>
                 <strong>Start Saving Early:</strong> Even if your personal savings may not cover the total cost of studying in Germany, starting to save money early can make a significant difference. Many students who plan to study in Germany begin saving from the moment they decide to pursue their education there. It's crucial to get used to saving money because you'll need to do it often in Germany.
               </li>
@@ -57,15 +57,15 @@ const BlogPost = () => {
                 <strong>Scholarships:</strong> Scholarships are a great opportunity to finance your studies in Germany. The country offers numerous scholarships for talented and skilled students. While it may be challenging to rely solely on scholarships, they can significantly contribute to covering your living expenses. Organizations such as the Deutschlandstipendium, DAAD Scholarships, Erasmus+, and private foundations offer scholarships to international students.
               </li>
             </ol>
-            <h3 className='mt-14 font-bold text-xl text-gray-600'>Conclusion</h3>
-            <p className='mt-4 leading-7 text-justify text-gray-600 text-base'>
+            <h3 className='mt-14 font-semibold text-xl text-gray-600'>Conclusion</h3>
+            <p className='mt-4 text'>
               Financing your studies in Germany requires careful financial planning and consideration of various options. Starting to save early, utilizing parental income, working part-time, exploring student loans, and seeking scholarships can all contribute to covering your living expenses. At HeadStart, we understand the importance of financial support, and we encourage our students to explore these opportunities to ensure a successful and fulfilling educational experience in Germany.
             </p>
           </article>
         </div>
       </main>
 
-      <aside aria-label="Related articles" className="py-8 lg:py-24 bg-gray-50">
+      <aside aria-label="Related articles" className="py-8 lg:py-24 bg-gray-50 max-w-none">
         <div className="px-4 mx-auto max-w-screen-xl">
           <h2 className="mb-8 text-2xl font-bold text-gray-600 text-center">Related articles</h2>
           <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4 justify-center">
@@ -122,6 +122,7 @@ const BlogPost = () => {
       </aside>
 
       <Newsletter />
+
     </>
   )
 }

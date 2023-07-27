@@ -37,9 +37,9 @@ const CompanyHero = () => {
                 <div className="relative mx-auto">
                     <div className="sm:max-w-lg pt-44">
                         <h1 className="text-4xl text-center font-semibold tracking-tight text-gray-800 sm:text-5xl sm:text-left">
-                            Welcome to <br /><span className='text-primary font-bold sm:text-6xl'>Headstart</span>
+                            Welcome to <br /><span className='text-primary sm:text-6xl'>Headstart</span>
                         </h1>
-                        <p className="mt-6 text-sm text-gray-600 font font-medium lg:text-base text-center sm:text-left max-w-md">
+                        <p className="mt-6 text-sm text-gray-600 font-medium lg:text-base text-center sm:text-left max-w-md">
                             Trusted international education consultants since 2010, working for Student success.
                         </p>
                     </div>

@@ -2,11 +2,11 @@ import React from 'react'
 
 const Newsletter = () => {
     return (
-        <section className="mt-20">
+        <section className="mt-20 p-6 mx-auto max-w-sm sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
             <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
                 <div className="mx-auto max-w-screen-md sm:text-center">
-                    <h2 className="mb-4 text-3xl font-bold tracking-tight text-primary sm:text-4xl text-center">Sign up for our Newsletter</h2>
-                    <p className="mx-auto mb-8 max-w-2xl font-light text-gray-600 text-base md:mb-12 sm:text-lg text-center">Stay up to date with the roadmap progress, announcements and exclusive discounts feel free to sign up with your email.</p>
+                    <h2 className="mb-4 title text-center">Sign up for our Newsletter</h2>
+                    <p className="mx-auto mb-10 max-w-2xl subdesc text-center">Stay up to date with the roadmap progress, announcements and exclusive discounts feel free to sign up with your email.</p>
                     <form action="#">
                         <div className="items-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">
                             <div className="relative w-full">
@@ -17,7 +17,7 @@ const Newsletter = () => {
                                 <input className="block p-3 pl-10 w-full text-sm text-gray-800 bg-white rounded-lg border border-gray-300 sm:rounded-none sm:rounded-l-lg focus:ring-primary focus:border-primary" placeholder="Enter your email" type="email" id="email" required="" />
                             </div>
                             <div>
-                                <button type="/" className="py-3 px-5 w-full text-sm font-medium text-center text-white rounded-lg border cursor-pointer bg-primary sm:rounded-none sm:rounded-r-lg hover:bg-primary-hover">Subscribe</button>
+                                <button type="/" className="py-3 px-5 w-full text-sm font-semibold text-center text-white rounded-xl transition border cursor-pointer shadow-xl bg-primary sm:rounded-none sm:rounded-r-lg hover:bg-primary-hover focus:bg-primary-hover">Subscribe</button>
                             </div>
                         </div>
                         <div className="mx-auto max-w-screen-sm text-sm text-center text-gray-500 font-light">Your email is safe with us. We don't spam.</div>

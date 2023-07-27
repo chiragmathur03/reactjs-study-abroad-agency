@@ -2,14 +2,26 @@
 @tailwind components;
 
 .btn {
-    @apply w-max rounded-xl transition bg-primary px-4 py-3 text-sm font-semibold text-white text-center shadow-xl hover:bg-primary-hover
-     focus:bg-primary-hover
+    @apply w-max rounded-xl transition bg-primary px-4 py-3 text-sm font-semibold text-white text-center shadow-xl hover:bg-primary-hover 
+    focus:bg-primary-hover
 }
 
-.btn-secondary{
+.title {
+    @apply text-3xl font-semibold md:font-bold tracking-tight sm:text-4xl text-primary leading-10
+}
+
+.subdesc {
+    @apply text-sm md:text-base lg:text-lg text-gray-600 font-medium
+}
+
+.text {
+    @apply text-justify text-sm md:text-base text-gray-600 leading-6 md:leading-7
+}
+
+/* .btn-secondary{
     @apply w-max flex rounded-xl transition bg-gray-100/70 px-4 py-3 text-sm font-semibold text-center text-gray-600 items-center gap-1.5 
     hover:bg-gray-200 focus:bg-gray-200
-}
+} */
 
 
-@tailwind utilities;    
+@tailwind utilities;

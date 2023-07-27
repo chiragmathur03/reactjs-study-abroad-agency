@@ -53,10 +53,10 @@ const WhyPrograms = () => {
             <div className="flex flex-col items-center">
                 <div className="mx-auto max-w-2xl text-center">
                     {/* <h2 className="text-base font-semibold leading-7 text-indigo-600">Deploy faster</h2> */}
-                    <p className="mt-2 text-3xl font-semibold tracking-tight text-primary sm:text-4xl">
+                    <p className="mt-2 title">
                         Why Headstart Programs?
                     </p>
-                    <p className="mt-6 text-sm lg:text-base text-gray-600 font-medium">
+                    <p className="mt-6 subdesc">
                         You can explore the features that we provide with fun and have their own feature.
                     </p>
                 </div>
@@ -64,14 +64,13 @@ const WhyPrograms = () => {
                     <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
                         {features.map((feature) => (
                             <div key={feature.name} className="relative pl-16">
-                                <dt className="text-base font-semibold leading-7 text-gray-800">
+                                <dt className="font-semibold leading-7 text-gray-800">
                                     <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-primary shadow-md">
                                         <feature.icon className="h-6 w-6 text-white" aria-hidden="true" />
                                     </div>
                                     {feature.name}
                                 </dt>
-                                {/* mt-6 text-sm text-gray-600 font-medium lg:text-base */}
-                                <dd className="mt-2 text-sm font-medium lg:text-base leading-7 text-gray-600">{feature.description}</dd>
+                                <dd className="mt-3 text-sm font-medium lg:text-base leading-5 text-gray-600">{feature.description}</dd>
                             </div>
                         ))}
                     </dl>

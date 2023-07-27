@@ -37,8 +37,8 @@ const Connect = () => {
 
             {/* <div className="mx-auto max-w-2xl text-center mt-28 "> --original */}
             <div className="mx-auto text-center">
-                <h2 className="text-3xl font-semibold tracking-tight text-primary sm:text-4xl">Contact Us</h2>
-                <p className="mt-2 text-sm lg:text-base font-medium text-gray-600">
+                <h2 className="title">Contact Us</h2>
+                <p className="mt-2 subdesc">
                     We are here to assist you on your study abroad journey.
                 </p>
             </div>
@@ -182,7 +182,7 @@ const Connect = () => {
             </form>
 
             <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-                <a href="mailto:info@headstart.co.in" className="text-primary hover:text-gray-500">info@headstart.co.in</a>
+                <a href="mailto:info@headstart.co.in" className="text-primary font-semibold hover:text-gray-500">info@headstart.co.in</a>
                 <p className="leading-normal my-5 text-gray-700 hover:text-gray-500">
                     <a href="https://goo.gl/maps/Rko9qVf1rBpS9qe2A">
                         608-A, Pinnacle Business Park

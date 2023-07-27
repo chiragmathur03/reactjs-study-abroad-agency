@@ -8,7 +8,7 @@ const Benefits = () => {
                 <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
                 Brand new</p></div> */}
 
-                <h2 className="max-w-lg mb-6 text-3xl font-semibold leading-none tracking-tight text-primary sm:text-4xl text-center sm:mx-auto">
+                <h2 className="max-w-lg mb-6 title sm:mx-auto text-center">
                     <span className="relative inline-block">
                         <svg
                             viewBox="0 0 52 24"
@@ -36,7 +36,7 @@ const Benefits = () => {
                     </span>{' '}
                     Can Take Benefits
                 </h2>
-                <p className="text-sm font-medium lg:text-base text-gray-600 md:text-lg text-center">
+                <p className="subdesc text-center">
                     Accessible education for all. Affordable programs to Unlock your potential and achieve your goals.
                 </p>
             </div>
@@ -67,7 +67,7 @@ const Benefits = () => {
                     alt=""
                 /> */}
             </div>
-            <div className='mt-16 text-justify text-base text-gray-600 space-y-8'>
+            <div className='mt-16 text space-y-8'>
                 <p>
                     At <span className='text-primary font-semibold hover:text-gray-600 cursor-pointer'> www.headstart.co.in</span>, we believe that every student, regardless of their background or academic goals, can benefit from the unique services provided by our counsellors. Whether you are a high school student exploring college options, an undergraduate looking to choose a major, or a professional seeking a career change, our dedicated team is here to support you every step of the way.
                 </p>

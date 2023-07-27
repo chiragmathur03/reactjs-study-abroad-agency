@@ -11,8 +11,8 @@ const ContactUs = () => {
                 {/* <h2 className="w-full text-3xl font-bold text-center sm:text-4xl text-primary">About Us
                 <p className="w-full py-8 mx-auto -mt-2 text-base text-center text-gray-600 font-medium sm:max-w-3xl"> */}
 
-                <h2 className="mb-4 text-3xl tracking-tight font-bold text-primary sm:text-4xl">Contact Us</h2>
-                <p className="text-gray-600 font-medium text-base">Get guidance on country selection, intake, deadlines, tests, and eligibility criteria.</p>
+                <h2 className="mb-4 title">Contact Us</h2>
+                <p className="subdesc">Get guidance on country selection, intake, deadlines, tests, and eligibility criteria.</p>
             </div>
             {/* <div className="space-y-8 flex flex-col items-start justify-center sm:grid sm:grid-cols-3 sm:gap-5 lg:gap-12 sm:space-y-0 text-center"> */}
             <div className="grid row-gap-8 sm:row-gap-0 sm:grid-cols-2 lg:grid-cols-3">

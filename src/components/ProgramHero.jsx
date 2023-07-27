@@ -19,9 +19,9 @@ const ProgramHero = () => {
     return (
         <section className="overflow-hidden">
             <div className="bg-purple-50 overflow-hidden">
-            {/* <div className="pt-20 pb-14 bg-purple-50 overflow-hidden"> */}
+                {/* <div className="pt-20 pb-14 bg-purple-50 overflow-hidden"> */}
                 <div className="px-10 mx-auto py-44 sm:px-20">
-                {/* <div className="px-10 mx-auto py-36 sm:px-20 sm:py-16 lg:py-28"> */}
+                    {/* <div className="px-10 mx-auto py-36 sm:px-20 sm:py-16 lg:py-28"> */}
                     <div className="flex flex-wrap -m-8">
                         <div className="w-full md:w-1/2 p-8">
                             <div className="md:max-w-lg">

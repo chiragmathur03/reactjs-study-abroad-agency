@@ -10,7 +10,7 @@ import {
     BriefcaseIcon
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, QueueListIcon } from '@heroicons/react/20/solid'
-import { FaAngleRight } from 'react-icons/fa'
+import { FaAngleRight, FaArrowRight } from 'react-icons/fa'
 
 //images
 import brandicon from '../assets/brandlogo.png'
@@ -210,11 +210,18 @@ const NavBar = () => {
                                     </Link>
                                 </div>
                                 <div className="py-6">
-                                    <Link
+                                    {/* <Link
                                         to="/connect"
-                                        className="-mx-3 inline-block rounded-lg px-3 py-2 text-base font-extrabold leading-7 text-primary border-2 border-primary hover:bg-primary-hover hover:text-white" onClick={() => setMobileMenuOpen(false)}
+                                        className="inline-block rounded-xl px-3 py-2 text-base font-extrabold leading-7 text-primary border-2 border-primary hover:bg-primary-hover hover:text-white" onClick={() => setMobileMenuOpen(false)}
                                     >
                                         Connect
+                                    </Link> */}
+                                    <Link
+                                        to="/connect"
+                                        className="rounded-xl text-base font-extrabold leading-7 text-primary hover:bg-primary-hover hover:text-white 
+                                        flex gap-1.5 items-center" onClick={() => setMobileMenuOpen(false)}
+                                    >
+                                        Connect <FaArrowRight />
                                     </Link>
                                 </div>
                             </div>

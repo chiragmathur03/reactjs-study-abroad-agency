@@ -9,7 +9,7 @@ const Blogs = () => {
       <div className="mt-44 mb-36 p-6 mx-auto max-w-sm sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
         <div role="main" className="flex flex-col items-center justify-center">
           <h1 className="text-4xl font-semibold tracking-tight text-center text-primary sm:text-5xl">News & Blogs</h1>
-          <p className="text-sm lg:text-base font-medium text-center text-gray-600 mt-4 lg:w-1/2 md:w-10/12 w-11/12">Stay updated with our news and blog for valuable insights and resources. Join our community and access the latest trends and opportunities in education.</p>
+          <p className="text-sm lg:text-base font-medium text-center text-gray-600 mt-6 lg:w-1/2 md:w-10/12 w-11/12">Stay updated with our news and blog for valuable insights and resources. Join our community and access the latest trends and opportunities in education.</p>
         </div>
         <div className="lg:flex items-stretch md:mt-44 mt-28">
           <div className="lg:w-1/2">
@@ -19,7 +19,7 @@ const Blogs = () => {
                 <div>
                   <p className="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">12 April 2021</p>
                   <div className="absolute bottom-0 left-0 p-6">
-                    <h2 className="text-xl font-semibold 5 text-white">How to finance your studies in Germany</h2>
+                    <h2 className="text-xl font-semibold 5 text-white">How to finance your studies in Germany?</h2>
                     {/* <p className="text-base leading-4 text-white mt-2">Dive into minimalism</p> */}
                     <div to="/post" className="underline focus:no-underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:no-underline">
                       <p className="pr-2 text-sm font-medium leading-none">Read in 2 minutes</p>

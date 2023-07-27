@@ -25,10 +25,10 @@ const Testimonial = () => {
             {/* <div className="px-4 py-16 mx-auto max-w-2xl text-center"> */}
             <div className="text-center">
                 {/* <h2 className="text-base font-semibold leading-7 text-indigo-600">Deploy faster</h2> */}
-                <h2 className="mb-6 text-3xl font-semibold tracking-tight text-primary sm:text-4xl">
+                <h2 className="mb-6 title">
                     Our Student Reviews
                 </h2>
-                <p className="text-base text-gray-600 md:text-lg">
+                <p className="subdesc">
                     Trusted by Thousands of Students.
                 </p>
             </div>

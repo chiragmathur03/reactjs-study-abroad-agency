@@ -12,7 +12,7 @@ const Features = () => {
     return (
         <div>
             <div className="max-w-xl text-center mx-auto lg:max-w-2xl mb-12">
-                <h2 className="mb-6 text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl">
+                <h2 className="mb-6">
                     <span className="relative inline-block">
                         <svg
                             viewBox="0 0 52 24"
@@ -36,10 +36,11 @@ const Features = () => {
                                 height="24"
                             />
                         </svg>
-                        <span className="relative text-primary">Features</span>
+                        <span className="relative text-primary title">Features</span>
                     </span>
                 </h2>
-                <p className="text-sm lg:text-base text-gray-600 font-medium mb-10">
+                {/* <p className="text-sm lg:text-base text-gray-600 font-medium mb-10"> */}
+                <p className="mb-10 subdesc">
                     Our entire team works enthusiastically to guide you about Headstart Programs
                     which give you the following benefits:
                 </p>
