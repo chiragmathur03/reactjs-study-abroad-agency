@@ -22,7 +22,7 @@ const programs = [
     { name: 'Work in Germany', description: 'Start your Dream Career after 12th', href: 'https://www.ws.headstart.co.in/', icon: BriefcaseIcon },
 ]
 const callsToAction = [
-    { name: 'Go To Programs ->', href: '/programs', icon: QueueListIcon },
+    { direct: 'Go To Programs ->', href: '/programs', icon: QueueListIcon },
 ]
 
 function classNames(...classes) {
@@ -93,7 +93,7 @@ const NavBar = () => {
                                                         <item.icon className="h-6 w-6 text-gray-600 group-hover:text-primary" aria-hidden="true" />
                                                     </div>
                                                     <div className="flex-auto">
-                                                        <a href={item.href} className="block font-semibold text-gray-900">
+                                                        <a href={item.href} className="block font-semibold text-gray-900" target="_blank" rel="noopener noreferrer">
                                                             {item.name}
                                                             <span className="absolute inset-0" />
                                                         </a>
@@ -112,6 +112,7 @@ const NavBar = () => {
                                                 >
                                                     <item.icon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
                                                     {item.name}
+                                                    {item.direct}
                                                 </Link>
                                             ))}
                                         </div>
@@ -190,6 +191,7 @@ const NavBar = () => {
                                                             onClick={() => setMobileMenuOpen(false)}
                                                         >
                                                             {item.name}
+                                                            <span className='text-primary font-bold'>{item.direct}</span>
                                                         </Link>
                                                     ))}
                                                 </Disclosure.Panel>

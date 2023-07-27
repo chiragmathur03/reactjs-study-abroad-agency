@@ -1,15 +1,17 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 
 //images
 import brandimg from '../assets/brandlogo.png'
-import { Link } from 'react-router-dom'
 
 //icons
 import { RiInstagramFill, RiFacebookFill, RiTwitterFill, RiYoutubeFill } from 'react-icons/ri';
 
 const Footer = () => {
     return (
-        <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+        // <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+        <div className="p-6 mx-auto max-w-sm sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
             <div className="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
                 <div className="md:max-w-md lg:col-span-2">
                     <Link
@@ -26,7 +28,7 @@ const Footer = () => {
                         </span> */}
                     </Link>
                     <div className="mt-4 lg:max-w-sm">
-                        <p className="text-sm text-gray-800">
+                        <p className="text-sm text-gray-600 leading-6">
                             Welcome to HeadStart International Education Consultancy, your trusted partner in the journey towards higher education in the world's top universities.
                         </p>
                     </div>
@@ -40,10 +42,10 @@ const Footer = () => {
                         <ul className="mt-2 space-y-2">
                             <li>
                                 <Link
-                                    to="/"
+                                    to="/about"
                                     className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                                 >
-                                    About Us
+                                    Company
                                 </Link>
                             </li>
                             <li>
@@ -78,16 +80,16 @@ const Footer = () => {
                         </p>
                         <ul className="mt-2 space-y-2">
                             <li>
-                                <Link
-                                    to="/"
+                                <HashLink
+                                    to="/programs#testimonials" smooth
                                     className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                                 >
                                     Testimonials
-                                </Link>
+                                </HashLink>
                             </li>
                             <li>
                                 <Link
-                                    to="/"
+                                    to="/blogs"
                                     className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                                 >
                                     Blogs
@@ -99,28 +101,28 @@ const Footer = () => {
                         <p className="font-semibold tracking-wide text-gray-800">Programs</p>
                         <ul className="mt-2 space-y-2">
                             <li>
-                                <Link
-                                    to="/"
-                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                                <a
+                                    href="https://www.ug.headstart.co.in/" target='_blank'
+                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400" rel="noreferrer"
                                 >
                                     Bachelors
-                                </Link>
+                                </a>
                             </li>
                             <li>
-                                <Link
-                                    to="/"
-                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                                <a
+                                    href="https://www.pgmedicine.com/" target='_blank'
+                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400" rel="noreferrer"
                                 >
                                     Masters
-                                </Link>
+                                </a>
                             </li>
                             <li>
-                                <Link
-                                    to="/"
-                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                                <a
+                                    href="https://www.ws.headstart.co.in/" target='_blank'
+                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400" rel="noreferrer"
                                 >
                                     Phd
-                                </Link>
+                                </a>
                             </li>
                         </ul>
                     </div>

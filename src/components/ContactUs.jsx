@@ -49,7 +49,7 @@ const ContactUs = () => {
                         </div>
                         <h6 className="mb-2 font-semibold leading-5 text-gray-800">Address</h6>
                         <p className="mb-3 text-sm text-gray-600 hover:text-gray-800 underline hover:no-underline">
-                            <a href="https://goo.gl/maps/Rko9qVf1rBpS9qe2A">
+                            <a href="https://goo.gl/maps/Rko9qVf1rBpS9qe2A" target='_blank' rel="noreferrer">
                                 608-A, Pinnacle Business Park, Corporate Road, Prahladnagar, Ahmedabad
                             </a>
                         </p>

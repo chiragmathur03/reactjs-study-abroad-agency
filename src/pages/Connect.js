@@ -184,7 +184,7 @@ const Connect = () => {
             <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
                 <a href="mailto:info@headstart.co.in" className="text-primary font-semibold hover:text-gray-500">info@headstart.co.in</a>
                 <p className="leading-normal my-5 text-gray-700 hover:text-gray-500">
-                    <a href="https://goo.gl/maps/Rko9qVf1rBpS9qe2A">
+                    <a href="https://goo.gl/maps/Rko9qVf1rBpS9qe2A" target='_blank' rel="noreferrer">
                         608-A, Pinnacle Business Park
                         <br />Corporate Road, Prahladnagar, Ahmedabad
                     </a>

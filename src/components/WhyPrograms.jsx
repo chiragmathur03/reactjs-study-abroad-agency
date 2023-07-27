@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { HashLink } from 'react-router-hash-link'
 //icons
 import { FaArrowRight } from 'react-icons/fa'
 import { BookOpenIcon, BanknotesIcon, StarIcon, BriefcaseIcon, AcademicCapIcon, CheckCircleIcon } from '@heroicons/react/24/outline';
@@ -75,9 +75,9 @@ const WhyPrograms = () => {
                         ))}
                     </dl>
                 </div>
-                <div className="flex items-center gap-1.5 mt-20 font-semibold leading-7 text-primary hover:text-gray-600 cursor-pointer lg:text-center">
+                <HashLink to='/about#details' smooth className="flex items-center gap-1.5 mt-20 font-semibold leading-7 text-primary hover:text-gray-600 cursor-pointer lg:text-center">
                     Learn More <FaArrowRight />
-                </div>
+                </HashLink>
             </div>
         </div>
 

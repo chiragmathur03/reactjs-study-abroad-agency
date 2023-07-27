@@ -9,11 +9,14 @@ import BlogPost from './components/BlogPost';
 import Company from './pages/Company';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 import './App.css';
+import ScrollToTop from './pages/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <NavBar />
       <Routes>
         <Route path='/' element={<Home />} />

@@ -21,7 +21,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 const Testimonial = () => {
     return (
-        <div className="space-y-8">
+        <div className="space-y-8" id='testimonials'>
             {/* <div className="px-4 py-16 mx-auto max-w-2xl text-center"> */}
             <div className="text-center">
                 {/* <h2 className="text-base font-semibold leading-7 text-indigo-600">Deploy faster</h2> */}

@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProgramBenefits = () => {
     return (
-        <div className="flex flex-col mx-auto space-y-12">
+        <div className="flex flex-col mx-auto space-y-12" id='details'>
             <div className="relative">
                 <h2 className="w-full title text-center">Discover Benefits</h2>
                 <p className="w-full py-8 mx-auto -mt-2 subdesc text-center sm:max-w-3xl">Some important points to understand the significance of associating with HeadStart and how you can benefit with it.</p>
