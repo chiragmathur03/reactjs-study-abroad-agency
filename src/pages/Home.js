@@ -9,7 +9,7 @@ import Banner from '../components/Banner';
 
 const Home = () => {
   return (
-    <div className='my-36 p-6 mx-auto max-w-sm sm:max-w-xl md:max-w-full lg:max-w-screen-xl space-y-40'>
+    <div className='mt-24 mb-36 p-6 mx-auto max-w-sm sm:max-w-xl md:max-w-full lg:max-w-screen-xl space-y-40'>
       <Header />
       <Stats />
       <Features />

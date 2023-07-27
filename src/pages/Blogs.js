@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Newsletter from '../components/Newsletter';
 
 const Blogs = () => {
   return (
@@ -128,6 +129,7 @@ const Blogs = () => {
             </div>
           </div>
         </div>
+        <Newsletter/>
       </div>
     </div>
   )
