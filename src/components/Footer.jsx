@@ -43,7 +43,7 @@ const Footer = () => {
                             <li>
                                 <Link
                                     to="/about"
-                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400 hover:text-gray-800"
                                 >
                                     Company
                                 </Link>
@@ -51,7 +51,7 @@ const Footer = () => {
                             <li>
                                 <Link
                                     to="/"
-                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400 hover:text-gray-800"
                                 >
                                     Privacy Policy
                                 </Link>
@@ -59,7 +59,7 @@ const Footer = () => {
                             <li>
                                 <Link
                                     to="/"
-                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400 hover:text-gray-800"
                                 >
                                     T&C
                                 </Link>
@@ -67,7 +67,7 @@ const Footer = () => {
                             <li>
                                 <Link
                                     to="/"
-                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400 hover:text-gray-800"
                                 >
                                     FAQ
                                 </Link>
@@ -82,7 +82,7 @@ const Footer = () => {
                             <li>
                                 <HashLink
                                     to="/programs#testimonials" smooth
-                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400 hover:text-gray-800"
                                 >
                                     Testimonials
                                 </HashLink>
@@ -90,7 +90,7 @@ const Footer = () => {
                             <li>
                                 <Link
                                     to="/blogs"
-                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400 hover:text-gray-800"
                                 >
                                     Blogs
                                 </Link>
@@ -103,7 +103,7 @@ const Footer = () => {
                             <li>
                                 <a
                                     href="https://www.ug.headstart.co.in/" target='_blank'
-                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400" rel="noreferrer"
+                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400 hover:text-gray-800" rel="noreferrer"
                                 >
                                     Bachelors
                                 </a>
@@ -111,7 +111,7 @@ const Footer = () => {
                             <li>
                                 <a
                                     href="https://www.pgmedicine.com/" target='_blank'
-                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400" rel="noreferrer"
+                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400 hover:text-gray-800" rel="noreferrer"
                                 >
                                     Masters
                                 </a>
@@ -119,7 +119,7 @@ const Footer = () => {
                             <li>
                                 <a
                                     href="https://www.ws.headstart.co.in/" target='_blank'
-                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400" rel="noreferrer"
+                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400 hover:text-gray-800" rel="noreferrer"
                                 >
                                     Phd
                                 </a>
@@ -156,16 +156,16 @@ const Footer = () => {
                             <path d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z" />
                         </svg>
                     </Link> */}
-                    <a className="text-gray-500 hover:text-[#3b5998] cursor-pointer text-2xl">
+                    <a className="text-gray-500 hover:text-[#3b5998] cursor-pointer text-2xl duration-300 transition-colors">
                         <RiFacebookFill />
                     </a>
-                    <a className="ml-4 text-gray-500 hover:text-[#26a7de] cursor-pointer text-2xl">
+                    <a className="ml-4 text-gray-500 hover:text-[#26a7de] cursor-pointer text-2xl duration-300 transition-colors">
                         <RiTwitterFill />
                     </a>
-                    <a className="ml-4 text-gray-500 hover:text-[#e2457a] cursor-pointer text-2xl">
+                    <a className="ml-4 text-gray-500 hover:text-[#e2457a] cursor-pointer text-2xl duration-300 transition-colors">
                         <RiInstagramFill />
                     </a>
-                    <a className="ml-4 text-gray-500 hover:text-[#CD201F] cursor-pointer text-2xl">
+                    <a className="ml-4 text-gray-500 hover:text-[#CD201F] cursor-pointer text-2xl duration-300 transition-colors">
                         <RiYoutubeFill />
                     </a>
                 </div>

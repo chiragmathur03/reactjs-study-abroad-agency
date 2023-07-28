@@ -16,7 +16,7 @@ const PCTA = () => {
             <p className=" text-base text-gray-600 md:text-lg mb-12">Join our program and embark on your international educational journey today.</p>
 
             <div className="flex flex-wrap justify-center gap-4 lg:justify-start">
-              <Link to='/connect' type="button" className="w-max py-3 px-6 text-center rounded-xl transition bg-primary shadow-xl hover:bg-primary-hover active:bg-primary focus:bg-primary-hover">
+              <Link to='/connect' type="button" className="w-max py-3 px-6 text-center rounded-xl bg-primary shadow-xl hover:bg-primary-hover active:bg-primary focus:bg-primary-hover duration-300 transition-colors">
                 <span className="block text-white font-semibold">
                   Connect
                 </span>

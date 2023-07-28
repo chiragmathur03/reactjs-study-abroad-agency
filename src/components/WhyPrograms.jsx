@@ -75,7 +75,7 @@ const WhyPrograms = () => {
                         ))}
                     </dl>
                 </div>
-                <HashLink to='/about#details' smooth className="flex items-center gap-1.5 mt-20 font-semibold leading-7 text-primary hover:text-gray-600 cursor-pointer lg:text-center">
+                <HashLink to='/about#details' smooth className="flex items-center gap-1.5 mt-20 font-semibold leading-7 text-primary hover:text-gray-600 cursor-pointer lg:text-center duration-300 transition-colors">
                     Learn More <FaArrowRight />
                 </HashLink>
             </div>

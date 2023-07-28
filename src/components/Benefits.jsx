@@ -69,7 +69,7 @@ const Benefits = () => {
             </div>
             <div className='mt-16 text space-y-8'>
                 <p>
-                    At <span className='text-primary font-semibold hover:text-gray-600 cursor-pointer'> www.headstart.co.in</span>, we believe that every student, regardless of their background or academic goals, can benefit from the unique services provided by our counsellors. Whether you are a high school student exploring college options, an undergraduate looking to choose a major, or a professional seeking a career change, our dedicated team is here to support you every step of the way.
+                    At <span className='text-primary font-semibold hover:text-gray-600 cursor-pointer duration-300 transition-colors'> www.headstart.co.in</span>, we believe that every student, regardless of their background or academic goals, can benefit from the unique services provided by our counsellors. Whether you are a high school student exploring college options, an undergraduate looking to choose a major, or a professional seeking a career change, our dedicated team is here to support you every step of the way.
                 </p>
 
                 <p>

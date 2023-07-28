@@ -2,8 +2,8 @@
 @tailwind components;
 
 .btn {
-    @apply w-max rounded-xl transition bg-primary px-4 py-3 text-sm font-semibold text-white text-center shadow-xl hover:bg-primary-hover 
-    focus:bg-primary-hover
+    @apply w-max rounded-xl bg-primary px-4 py-3 text-sm font-semibold text-white text-center shadow-xl hover:bg-primary-hover 
+    focus:bg-primary-hover duration-300 transition-colors
 }
 
 .title {

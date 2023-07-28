@@ -43,7 +43,7 @@ const Header = () => {
                 className="btn">
                 Connect
               </Link>
-              <Link to="/programs" className="text-sm font-semibold flex items-center gap-1.5 leading-6 text-gray-600 hover:text-gray-700">
+              <Link to="/programs" className="text-sm font-semibold flex items-center gap-1.5 leading-6 text-gray-600 hover:text-gray-700  duration-300 transition-colors">
                 Our Programs<FaArrowRight />
               </Link>
             </div>

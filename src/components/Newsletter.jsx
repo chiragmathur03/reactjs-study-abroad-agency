@@ -17,7 +17,7 @@ const Newsletter = () => {
                                 <input className="block p-3 pl-10 w-full text-sm text-gray-800 bg-white rounded-lg border border-gray-300 sm:rounded-none sm:rounded-l-lg focus:ring-primary focus:border-primary" placeholder="Enter your email" type="email" id="email" required="" />
                             </div>
                             <div>
-                                <button type="/" className="py-3 px-5 w-full text-sm font-semibold text-center text-white rounded-xl transition border cursor-pointer shadow-xl bg-primary sm:rounded-none sm:rounded-r-lg hover:bg-primary-hover focus:bg-primary-hover">Subscribe</button>
+                                <button type="/" className="py-3 px-5 w-full text-sm font-semibold text-center text-white rounded-xl border cursor-pointer shadow-xl bg-primary sm:rounded-none sm:rounded-r-lg hover:bg-primary-hover focus:bg-primary-hover duration-300 transition-colors">Subscribe</button>
                             </div>
                         </div>
                         <div className="mx-auto max-w-screen-sm text-sm text-center text-gray-500 font-light">Your email is safe with us. We don't spam.</div>

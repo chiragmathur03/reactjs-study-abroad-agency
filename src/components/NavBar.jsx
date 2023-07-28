@@ -63,11 +63,11 @@ const NavBar = () => {
                         </button>
                     </div>
                     <Popover.Group className="hidden lg:flex lg:gap-x-12">
-                        <Link to="/" className="text-sm font-semibold leading-6 text-gray-600 hover:text-gray-700">
+                        <Link to="/" className="text-sm font-semibold leading-6 text-gray-600 hover:text-gray-700 duration-300 transition-colors">
                             Home
                         </Link>
                         <Popover className="relative">
-                            <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-600  hover:text-gray-700" onClick={handlePopoverOpen}>
+                            <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-600  hover:text-gray-700 duration-300 transition-colors" onClick={handlePopoverOpen}>
                                 {/* <Squares2X2Icon className="h-5 w-5 flex-none text-gray-600" aria-hidden="true" /> */}
                                 Programs
                             </Popover.Button>
@@ -121,10 +121,10 @@ const NavBar = () => {
                             )}
                         </Popover>
 
-                        <Link to="/blogs" className="text-sm font-semibold leading-6 text-gray-600 hover:text-gray-700">
+                        <Link to="/blogs" className="text-sm font-semibold leading-6 text-gray-600 hover:text-gray-700 duration-300 transition-colors">
                             Blogs
                         </Link>
-                        <Link to="/about" className="text-sm font-semibold leading-6 text-gray-600 hover:text-gray-700">
+                        <Link to="/about" className="text-sm font-semibold leading-6 text-gray-600 hover:text-gray-700 duration-300 transition-colors">
                             Company
                         </Link>
                     </Popover.Group>

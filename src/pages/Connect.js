@@ -174,7 +174,7 @@ const Connect = () => {
                 <div className="mt-10">
                     <button
                         type="submit"
-                        className="block w-full rounded-xl transition bg-primary px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xl hover:bg-primary-hover focus:bg-primary-hover"
+                        className="block w-full rounded-xl bg-primary px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xl hover:bg-primary-hover focus:bg-primary-hover duration-300 transition-colors"
                     >
                         Let's talk
                     </button>
@@ -182,24 +182,24 @@ const Connect = () => {
             </form>
 
             <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-                <a href="mailto:info@headstart.co.in" className="text-primary font-semibold hover:text-gray-500">info@headstart.co.in</a>
-                <p className="leading-normal my-5 text-gray-700 hover:text-gray-500">
-                    <a href="https://goo.gl/maps/Rko9qVf1rBpS9qe2A" target='_blank' rel="noreferrer">
+                <a href="mailto:info@headstart.co.in" className="text-primary font-semibold hover:text-gray-500 duration-300 transition-colors">info@headstart.co.in</a>
+                <p className="leading-normal my-5 text-gray-700 hover:text-gray-500 duration-300 transition-colors">
+                    <a href="https://goo.gl/maps/Rko9qVf1rBpS9qe2A">
                         608-A, Pinnacle Business Park
                         <br />Corporate Road, Prahladnagar, Ahmedabad
                     </a>
                 </p>
                 <span className="inline-flex">
-                    <a className="text-gray-500 hover:text-[#3b5998] cursor-pointer text-xl">
+                    <a className="text-gray-500 hover:text-[#3b5998] cursor-pointer text-xl duration-300 transition-colors">
                         <RiFacebookFill />
                     </a>
-                    <a className="ml-4 text-gray-500 hover:text-[#26a7de] cursor-pointer text-xl">
+                    <a className="ml-4 text-gray-500 hover:text-[#26a7de] cursor-pointer text-xl duration-300 transition-colors">
                         <RiTwitterFill />
                     </a>
-                    <a className="ml-4 text-gray-500 hover:text-[#e2457a] cursor-pointer text-xl">
+                    <a className="ml-4 text-gray-500 hover:text-[#e2457a] cursor-pointer text-xl duration-300 transition-colors">
                         <RiInstagramFill />
                     </a>
-                    <a className="ml-4 text-gray-500 hover:text-[#CD201F] cursor-pointer text-xl">
+                    <a className="ml-4 text-gray-500 hover:text-[#CD201F] cursor-pointer text-xl duration-300 transition-colors">
                         <RiYoutubeFill />
                     </a>
                 </span>
