@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 
 //components
@@ -70,7 +71,7 @@ const BlogPost = () => {
           <h2 className="mb-8 text-2xl font-bold text-gray-700 text-center">Related articles</h2>
           <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4 justify-center">
             <article className="max-w-xs">
-              <a href="#">
+              <a href='#'>
                 <img src="https://dl.dropboxusercontent.com/scl/fi/18884uhlc1q241xlc4a3c/facts.png?rlkey=s4nlp8e6zgu3epx4qi8twjfic&dl=0" className="mb-5 rounded-lg shadow-xl" alt="germany ballon" />
               </a>
               <h2 className="mb-2 text-xl font-bold leading-tight text-gray-800 ">
