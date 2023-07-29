@@ -13,7 +13,7 @@ const PCTA = () => {
         <div className="justify-center text-center gap-6 lg:text-left lg:flex lg:items-center lg:gap-16">
           <div className="order-last mb-6 space-y-6 lg:mb-0 lg:w-6/12">
             <h1 className="text-3xl text-gray-800 font-semibold tracking-tight sm:text-4xl">Get Started with our <span className="text-primary">Program.</span></h1>
-            <p className=" text-base text-gray-600 md:text-lg mb-12">Join our program and embark on your international educational journey today.</p>
+            <p className=" text-base text-gray-700 md:text-lg mb-12">Join our program and embark on your international educational journey today.</p>
 
             <div className="flex flex-wrap justify-center gap-4 lg:justify-start">
               <Link to='/connect' type="button" className="w-max py-3 px-6 text-center rounded-xl bg-primary shadow-xl hover:bg-primary-hover active:bg-primary focus:bg-primary-hover duration-300 transition-colors">

@@ -36,7 +36,7 @@ const WhyUs = () => {
                             <TiTickOutline className='w-8 h-8 text-gray-700' />
                         </div>
                         <h6 className="mb-2 font-semibold leading-5 text-gray-800">Expertise</h6>
-                        <p className="mb-3 text-sm text-gray-600 leading-5">
+                        <p className="mb-3 text-sm text-gray-700 leading-5">
                             Our team consists of experienced and qualified professionals with in-depth knowledge of the education systems and admission processes of various countries.
                         </p>
                     </div>
@@ -47,7 +47,7 @@ const WhyUs = () => {
                             <AiOutlineSolution className='w-10 h-10 text-gray-700' />
                         </div>
                         <h6 className="mb-2 font-semibold leading-5 text-gray-800">Customized Solutions</h6>
-                        <p className="mb-3 text-sm text-gray-600 leading-5">
+                        <p className="mb-3 text-sm text-gray-700 leading-5">
                             We understand that each student is unique, and we provide personalized solutions based on their individual needs and requirements.
                         </p>
                     </div>
@@ -58,7 +58,7 @@ const WhyUs = () => {
                             <TbProgressCheck className='w-10 h-10 text-gray-700' />
                         </div>
                         <h6 className="mb-2 font-semibold leading-5 text-gray-800">Transparency</h6>
-                        <p className="mb-3 text-sm text-gray-600 leading-5">
+                        <p className="mb-3 text-sm text-gray-700 leading-5">
                             We maintain complete transparency throughout the process, and our students are regularly updated about the progress of their application.
                         </p>
                     </div>
@@ -69,7 +69,7 @@ const WhyUs = () => {
                             <RiHandCoinLine className='w-10 h-10 text-gray-700' />
                         </div>
                         <h6 className="mb-2 font-semibold leading-5">Affordable Services</h6>
-                        <p className="mb-3 text-sm text-gray-600 leading-5">
+                        <p className="mb-3 text-sm text-gray-700 leading-5">
                             We believe that everyone deserves quality education and we offer the lowest fee packages.
                         </p>
                     </div>
@@ -80,7 +80,7 @@ const WhyUs = () => {
                             <LiaUniversitySolid className='w-10 h-10 text-gray-700' />
                         </div>
                         <h6 className="mb-2 font-semibold leading-5">University Selection</h6>
-                        <p className="mb-3 text-sm text-gray-600 leading-5">
+                        <p className="mb-3 text-sm text-gray-700 leading-5">
                             We help students select the right course, college or university, and country based on their academic profile, interests, and budget.
                         </p>
                     </div>
@@ -92,7 +92,7 @@ const WhyUs = () => {
                             <LiaHandsHelpingSolid className='w-10 h-10 text-gray-700' />
                         </div>
                         <h6 className="mb-2 font-semibold leading-5">Assistance Guidance</h6>
-                        <p className="mb-3 text-sm text-gray-600 leading-5">
+                        <p className="mb-3 text-sm text-gray-700 leading-5">
                             We assist students in the entire application process, including filling out application forms, writing SOPs, essays, and letters of recommendation etc.
                         </p>
                     </div>
@@ -105,7 +105,7 @@ const WhyUs = () => {
                             <MdOutlineAssignment className='w-10 h-10 text-gray-700' />
                         </div>
                         <h6 className="mb-2 font-semibold leading-5">Visa Assistance</h6>
-                        <p className="mb-3 text-sm text-gray-600 leading-5">
+                        <p className="mb-3 text-sm text-gray-700 leading-5">
                             We guide students through the visa process, including preparing the required documents, scheduling visa workshops, and providing guidance on visa interview preparation.
                         </p>
                     </div>
@@ -117,7 +117,7 @@ const WhyUs = () => {
                             <BiUserVoice className='w-10 h-10 text-gray-700' />
                         </div>
                         <h6 className="mb-2 font-semibold leading-5">Pre-Departure Briefing</h6>
-                        <p className="mb-3 text-sm text-gray-600 leading-5">
+                        <p className="mb-3 text-sm text-gray-700 leading-5">
                             We provide students with a comprehensive briefing on what to expect once they reach their destination country, including information on accommodation, travel, and orientation.
                         </p>
                     </div>
@@ -129,7 +129,7 @@ const WhyUs = () => {
                             <SiSemanticscholar className='w-10 h-10 text-gray-700' />
                         </div>
                         <h6 className="mb-2 font-semibold leading-5">Scholarship Assistance</h6>
-                        <p className="mb-3 text-sm text-gray-600 leading-5">
+                        <p className="mb-3 text-sm text-gray-700 leading-5">
                             We provide information on available scholarships and assist students in applying.
                         </p>
                     </div>

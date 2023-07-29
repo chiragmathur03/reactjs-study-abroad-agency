@@ -22,7 +22,7 @@ const ContactUs = () => {
                             <AtSymbolIcon className='w-8 h-8 text-gray-700' />
                         </div>
                         <h6 className="mb-2 font-semibold leading-5 text-gray-800">Email</h6>
-                        <p className="mb-3 text-sm text-gray-600 hover:text-gray-800 underline hover:no-underline duration-300 transition-colors">
+                        <p className="mb-3 text-sm text-gray-700 hover:text-gray-500 hover:no-underline duration-300 transition-colors">
                             <a href="mailto:info@headstart.co.in">
                                 info@headstart.co.in
                             </a>
@@ -35,7 +35,7 @@ const ContactUs = () => {
                             <PhoneArrowUpRightIcon className='w-8 h-8 text-gray-700' />
                         </div>
                         <h6 className="mb-2 font-semibold leading-5 text-gray-800">Phone</h6>
-                        <p className="mb-3 text-sm text-gray-600 hover:text-gray-800 underline hover:no-underline duration-300 transition-colors">
+                        <p className="mb-3 text-sm text-gray-700 hover:text-gray-500 hover:no-underline duration-300 transition-colors">
                             <a href="tel:+917226812550">
                                 +91 72268 12550 / <br /> +91 72268 41550
                             </a>
@@ -48,7 +48,7 @@ const ContactUs = () => {
                             <BuildingOfficeIcon className='w-8 h-8 text-gray-700' />
                         </div>
                         <h6 className="mb-2 font-semibold leading-5 text-gray-800">Address</h6>
-                        <p className="mb-3 text-sm text-gray-600 hover:text-gray-800 underline hover:no-underline duration-300 transition-colors">
+                        <p className="mb-3 text-sm text-gray-700 hover:text-gray-500 hover:no-underline duration-300 transition-colors">
                             <a href="https://goo.gl/maps/Rko9qVf1rBpS9qe2A" target='_blank' rel="noreferrer">
                                 608-A, Pinnacle Business Park, Corporate Road, Prahladnagar, Ahmedabad
                             </a>

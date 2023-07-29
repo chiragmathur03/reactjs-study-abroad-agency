@@ -70,12 +70,12 @@ const WhyPrograms = () => {
                                     </div>
                                     {feature.name}
                                 </dt>
-                                <dd className="mt-3 text-sm font-medium lg:text-base leading-5 text-gray-600">{feature.description}</dd>
+                                <dd className="mt-3 text-sm font-medium lg:text-base leading-5 text-gray-700">{feature.description}</dd>
                             </div>
                         ))}
                     </dl>
                 </div>
-                <HashLink to='/about#details' smooth className="flex items-center gap-1.5 mt-20 font-semibold leading-7 text-primary hover:text-gray-600 cursor-pointer lg:text-center duration-300 transition-colors">
+                <HashLink to='/about#details' smooth className="flex items-center gap-1.5 mt-20 font-semibold leading-7 text-primary hover:text-gray-500 cursor-pointer lg:text-center duration-300 transition-colors">
                     Learn More <FaArrowRight />
                 </HashLink>
             </div>

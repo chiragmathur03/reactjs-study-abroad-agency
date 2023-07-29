@@ -46,7 +46,7 @@ const ProgramHero = () => {
                                         </a>
                                     </div>
                                 </div> */}
-                                <p className="mt-6 text-sm text-gray-600 font-medium lg:text-base mb-24 text-center sm:text-left">
+                                <p className="mt-6 text-sm text-gray-700 font-medium lg:text-base mb-24 text-center sm:text-left">
                                     The carefully hand-picked HeadStart Programs benefit you in a big way as they guarantee you financial freedom,
                                     ensure better universities, provide successful international career and thus help you make right study abroad decision.
                                 </p>

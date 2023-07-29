@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
+//components
 import Newsletter from '../components/Newsletter';
+
 
 const Blogs = () => {
   return (

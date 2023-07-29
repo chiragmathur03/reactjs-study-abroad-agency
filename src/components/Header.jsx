@@ -34,8 +34,10 @@ const Header = () => {
             <h1 className="text-4xl font-semibold tracking-tight text-gray-800 sm:text-5xl">
               Create Pathways for Students to <span className='text-primary'>Study Abroad.</span>
             </h1>
-            <p className="mt-6 text-sm text-gray-600 font-medium lg:text-base">
-              We Think About You & Strive to Deliver the Best Because You Deserve the Best.
+            <p className="flex justify-center mt-6 text-sm text-gray-700 font-medium lg:text-base">
+              <span className='w-4/6'>
+                We Think About You & Strive to Deliver the Best Because You Deserve the Best.
+              </span>
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
@@ -43,7 +45,7 @@ const Header = () => {
                 className="btn">
                 Connect
               </Link>
-              <Link to="/programs" className="text-sm font-semibold flex items-center gap-1.5 leading-6 text-gray-600 hover:text-gray-700  duration-300 transition-colors">
+              <Link to="/programs" className="text-sm font-semibold flex items-center gap-1.5 leading-6 text-gray-700 hover:text-gray-500  duration-300 transition-colors">
                 Our Programs<FaArrowRight />
               </Link>
             </div>

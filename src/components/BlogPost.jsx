@@ -57,7 +57,7 @@ const BlogPost = () => {
                 <strong>Scholarships:</strong> Scholarships are a great opportunity to finance your studies in Germany. The country offers numerous scholarships for talented and skilled students. While it may be challenging to rely solely on scholarships, they can significantly contribute to covering your living expenses. Organizations such as the Deutschlandstipendium, DAAD Scholarships, Erasmus+, and private foundations offer scholarships to international students.
               </li>
             </ol>
-            <h3 className='mt-14 font-semibold text-xl text-gray-600'>Conclusion</h3>
+            <h3 className='mt-14 font-semibold text-xl text-gray-700'>Conclusion</h3>
             <p className='mt-4 text'>
               Financing your studies in Germany requires careful financial planning and consideration of various options. Starting to save early, utilizing parental income, working part-time, exploring student loans, and seeking scholarships can all contribute to covering your living expenses. At HeadStart, we understand the importance of financial support, and we encourage our students to explore these opportunities to ensure a successful and fulfilling educational experience in Germany.
             </p>
@@ -67,7 +67,7 @@ const BlogPost = () => {
 
       <aside aria-label="Related articles" className="py-8 lg:py-24 bg-gray-50 max-w-none">
         <div className="px-4 mx-auto max-w-screen-xl">
-          <h2 className="mb-8 text-2xl font-bold text-gray-600 text-center">Related articles</h2>
+          <h2 className="mb-8 text-2xl font-bold text-gray-700 text-center">Related articles</h2>
           <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4 justify-center">
             <article className="max-w-xs">
               <a href="#">

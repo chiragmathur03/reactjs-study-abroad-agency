@@ -2,7 +2,7 @@
 @tailwind components;
 
 .btn {
-    @apply w-max rounded-xl bg-primary px-4 py-3 text-sm font-semibold text-white text-center shadow-xl hover:bg-primary-hover 
+    @apply w-max rounded-xl bg-primary px-4 py-3 text-sm font-semibold text-white text-center shadow-xl hover:bg-opacity-90
     focus:bg-primary-hover duration-300 transition-colors
 }
 
@@ -11,11 +11,11 @@
 }
 
 .subdesc {
-    @apply text-sm md:text-base lg:text-lg text-gray-600 font-medium
+    @apply text-sm md:text-base lg:text-lg text-gray-700 font-medium
 }
 
 .text {
-    @apply text-justify text-sm md:text-base text-gray-600 leading-6 md:leading-7
+    @apply text-justify text-sm md:text-base text-gray-700 leading-6 md:leading-7
 }
 
 /* .btn-secondary{

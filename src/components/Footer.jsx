@@ -28,7 +28,7 @@ const Footer = () => {
                         </span> */}
                     </Link>
                     <div className="mt-4 lg:max-w-sm">
-                        <p className="text-sm text-gray-600 leading-6">
+                        <p className="text-sm text-gray-700 leading-6">
                             Welcome to HeadStart International Education Consultancy, your trusted partner in the journey towards higher education in the world's top universities.
                         </p>
                     </div>
@@ -43,7 +43,7 @@ const Footer = () => {
                             <li>
                                 <Link
                                     to="/about"
-                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400 hover:text-gray-800"
+                                    className="text-gray-700 transition-colors duration-300 hover:text-deep-purple-accent-400 hover:text-gray-500"
                                 >
                                     Company
                                 </Link>
@@ -51,7 +51,7 @@ const Footer = () => {
                             <li>
                                 <Link
                                     to="/"
-                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400 hover:text-gray-800"
+                                    className="text-gray-700 transition-colors duration-300 hover:text-deep-purple-accent-400 hover:text-gray-500"
                                 >
                                     Privacy Policy
                                 </Link>
@@ -59,7 +59,7 @@ const Footer = () => {
                             <li>
                                 <Link
                                     to="/"
-                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400 hover:text-gray-800"
+                                    className="text-gray-700 transition-colors duration-300 hover:text-deep-purple-accent-400 hover:text-gray-500"
                                 >
                                     T&C
                                 </Link>
@@ -67,7 +67,7 @@ const Footer = () => {
                             <li>
                                 <Link
                                     to="/"
-                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400 hover:text-gray-800"
+                                    className="text-gray-700 transition-colors duration-300 hover:text-deep-purple-accent-400 hover:text-gray-500"
                                 >
                                     FAQ
                                 </Link>
@@ -82,7 +82,7 @@ const Footer = () => {
                             <li>
                                 <HashLink
                                     to="/programs#testimonials" smooth
-                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400 hover:text-gray-800"
+                                    className="text-gray-700 transition-colors duration-300 hover:text-deep-purple-accent-400 hover:text-gray-500"
                                 >
                                     Testimonials
                                 </HashLink>
@@ -90,7 +90,7 @@ const Footer = () => {
                             <li>
                                 <Link
                                     to="/blogs"
-                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400 hover:text-gray-800"
+                                    className="text-gray-700 transition-colors duration-300 hover:text-deep-purple-accent-400 hover:text-gray-500"
                                 >
                                     Blogs
                                 </Link>
@@ -103,7 +103,7 @@ const Footer = () => {
                             <li>
                                 <a
                                     href="https://www.ug.headstart.co.in/" target='_blank'
-                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400 hover:text-gray-800" rel="noreferrer"
+                                    className="text-gray-700 transition-colors duration-300 hover:text-deep-purple-accent-400 hover:text-gray-500" rel="noreferrer"
                                 >
                                     Bachelors
                                 </a>
@@ -111,7 +111,7 @@ const Footer = () => {
                             <li>
                                 <a
                                     href="https://www.pgmedicine.com/" target='_blank'
-                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400 hover:text-gray-800" rel="noreferrer"
+                                    className="text-gray-700 transition-colors duration-300 hover:text-deep-purple-accent-400 hover:text-gray-500" rel="noreferrer"
                                 >
                                     Masters
                                 </a>
@@ -119,7 +119,7 @@ const Footer = () => {
                             <li>
                                 <a
                                     href="https://www.ws.headstart.co.in/" target='_blank'
-                                    className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400 hover:text-gray-800" rel="noreferrer"
+                                    className="text-gray-700 transition-colors duration-300 hover:text-deep-purple-accent-400 hover:text-gray-500" rel="noreferrer"
                                 >
                                     Phd
                                 </a>

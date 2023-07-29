@@ -15,11 +15,11 @@ const Banner = () => {
                 <div className='mt-10 flex items-center justify-start gap-x-6'>
                     <Link
                         to="/connect"
-                        className="btn bg-white text-primary hover:bg-gray-200"
+                        className="btn bg-white text-primary hover:bg-gray-300"
                     >
                         Connect
                     </Link>
-                    <Link to="/programs" className="text-sm font-semibold flex gap-1.5 items-center leading-6 text-white hover:text-gray-200 duration-300 transition-colors">
+                    <Link to="/programs" className="text-sm font-semibold flex gap-1.5 items-center leading-6 text-white hover:text-gray-300 duration-300 transition-colors">
                         Our Programs <FaArrowRight />
                     </Link>
                 </div>

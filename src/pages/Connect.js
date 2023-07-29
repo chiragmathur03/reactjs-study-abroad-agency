@@ -166,7 +166,7 @@ const Connect = () => {
                                 />
                             </Switch>
                         </div>
-                        <Switch.Label className="text-sm leading-6 text-gray-600">
+                        <Switch.Label className="text-sm leading-6 text-gray-700">
                             By selecting this, you agree to allow us to contact you via phone
                         </Switch.Label>
                     </Switch.Group>
@@ -183,8 +183,8 @@ const Connect = () => {
 
             <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
                 <a href="mailto:info@headstart.co.in" className="text-primary font-semibold hover:text-gray-500 duration-300 transition-colors">info@headstart.co.in</a>
-                <p className="leading-normal my-5 text-gray-700 hover:text-gray-500 duration-300 transition-colors">
-                    <a href="https://goo.gl/maps/Rko9qVf1rBpS9qe2A">
+                <p className="leading-normal my-5 text-gray-700 ">
+                    <a href="https://goo.gl/maps/Rko9qVf1rBpS9qe2A" className='hover:text-gray-500 duration-300 transition-colors'>
                         608-A, Pinnacle Business Park
                         <br />Corporate Road, Prahladnagar, Ahmedabad
                     </a>

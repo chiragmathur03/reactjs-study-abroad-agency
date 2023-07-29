@@ -14,4 +14,4 @@ A company website for commercial use.
 
 ## Status
 
-In Progress
+Completed (Working on Improvements)
