@@ -19,6 +19,8 @@
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
     "react-simple-typewriter": "^5.0.1",
+    "remark": "^14.0.3",
+    "remark-html": "^15.0.2",
     "swiper": "^10.0.4",
     "web-vitals": "^2.1.4"
   },

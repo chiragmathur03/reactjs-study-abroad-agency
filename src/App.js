@@ -23,7 +23,7 @@ function App() {
         <Route path='/about' element={<Company />} />
         <Route path='/programs' element={<Programs />} />
         <Route path='/blogs' element={<Blogs />} />
-        <Route path='/post' element={<BlogPost />} />
+        <Route path='/post/:id' element={<BlogPost />} />
         <Route path='/connect' element={<Connect />} />
         <Route path='*' element={<Error />} />
       </Routes>

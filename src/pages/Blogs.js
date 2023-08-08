@@ -18,13 +18,13 @@ const Blogs = () => {
           <div className="lg:w-1/2">
             <div className="sm:flex items-center justify-between xl:gap-x-8 gap-x-6">
 
-              <Link className="sm:w-1/2 relative focus:outline-none" to='/post'>
+              <Link className="sm:w-1/2 relative focus:outline-none" to='/post/1'>
                 <div>
                   <p className="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">12 April 2021</p>
                   <div className="absolute bottom-0 left-0 p-6">
                     <h2 className="text-xl font-semibold 5 text-white">How to finance your studies in Germany?</h2>
                     {/* <p className="text-base leading-4 text-white mt-2">Dive into minimalism</p> */}
-                    <div to="/post" className="underline focus:no-underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:no-underline">
+                    <div className="underline focus:no-underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:no-underline">
                       <p className="pr-2 text-sm font-medium leading-none">Read in 2 minutes</p>
                       <svg className="fill-stroke" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M5.75 12.5L10.25 8L5.75 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -35,47 +35,47 @@ const Blogs = () => {
                 <img src="https://dl.dropboxusercontent.com/scl/fi/x4rhxn0977k6xuloi7b9f/finance.jpg?rlkey=9sidug2lx539gkqw1sy23mxqz&dl=0" className="w-full rounded-2xl shadow-xl" alt="finance" />
               </Link>
 
-              <div className="sm:w-1/2 sm:mt-0 mt-4 relative">
+              <Link to='/post/2' className="sm:w-1/2 sm:mt-0 mt-4 relative">
                 <div>
                   <p className="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">12 April 2021</p>
                   <div className="absolute bottom-0 left-0 p-6">
                     <h2 className="text-xl font-semibold 5 text-white">Top 10 interesting facts about Germany</h2>
                     {/* <p className="text-base leading-4 text-white mt-2">Dive into minimalism</p> */}
-                    <Link to="#" className="underline focus:outline-none focus:no-underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:no-underline">
+                    <div className="underline focus:outline-none focus:no-underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:no-underline">
                       <p className="pr-2 text-sm font-medium leading-none">Read in 2 minutes</p>
                       <svg className="fill-stroke" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M5.75 12.5L10.25 8L5.75 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                       </svg>
-                    </Link>
+                    </div>
                   </div>
                 </div>
                 <img src="https://dl.dropboxusercontent.com/scl/fi/cly5402njz0daymi6z2ki/facts.jpg?rlkey=9mxvsnjtpa12y6wzswj1z5qqw&dl=0" className="w-full rounded-2xl shadow-xl" alt="germany ballon" />
-              </div>
+              </Link>
             </div>
 
-            <div className="relative">
+            <Link to='/post/4' className="relative">
               <div>
                 <p className="md:p-10 p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">12 April 2021</p>
                 <div className="absolute bottom-0 left-0 md:p-10 p-6">
                   <h2 className="text-xl font-semibold 5 text-white">Masters in Germany: Unlocking Academic Excellence and Career Opportunities</h2>
                   {/* <p className="text-base leading-4 text-white mt-2">Dive into minimalism</p> */}
-                  <Link to="#" className="underline focus:outline-none focus:no-underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:no-underline">
+                  <div className="underline focus:outline-none focus:no-underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:no-underline">
                     <p className="pr-2 text-sm font-medium leading-none">Read in 12 minutes</p>
                     <svg className="fill-stroke" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M5.75 12.5L10.25 8L5.75 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
-                  </Link>
+                  </div>
                 </div>
               </div>
               <img src="https://dl.dropboxusercontent.com/scl/fi/6k9kl4d6ji2pl18b7mgab/masters.jpg?rlkey=jpurh0v7rbzowd07knht27oxi&dl=0" alt="student with germany flag" className="w-full rounded-2xl mt-8 md:mt-6 hidden sm:block shadow-xl" />
               <img className="w-full rounded-2xl mt-4 sm:hidden shadow-xl" src="https://dl.dropboxusercontent.com/scl/fi/6k9kl4d6ji2pl18b7mgab/masters.jpg?rlkey=jpurh0v7rbzowd07knht27oxi&dl=0" alt="student with germany flag" />
-            </div>
+            </Link>
 
           </div>
 
           <div className="lg:w-1/2 xl:ml-8 lg:ml-4 lg:mt-0 md:mt-6 mt-4 lg:flex flex-col justify-between">
 
-            <div className="relative">
+            <Link to='/post/3' className="relative">
               <div>
                 <p className="md:p-10 p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">12 April 2021</p>
                 <div className="absolute bottom-0 left-0 md:p-10 p-6">
@@ -91,11 +91,11 @@ const Blogs = () => {
               </div>
               <img src="https://dl.dropboxusercontent.com/scl/fi/pwxunw7ni23zommvty2kg/confusion.jpg?rlkey=yp7g8ett73dmh5jiwp5rfq3n6&dl=0" alt="confused" className="w-full rounded-2xl sm:block hidden shadow-xl" />
               <img className="w-full rounded-2xl sm:hidden shadow-xl" src="https://dl.dropboxusercontent.com/scl/fi/pwxunw7ni23zommvty2kg/confusion.jpg?rlkey=yp7g8ett73dmh5jiwp5rfq3n6&dl=0" alt="confused" />
-            </div>
+            </Link>
 
             <div className="sm:flex items-center justify-between xl:gap-x-8 gap-x-6 md:mt-6 mt-4">
 
-              <div className="relative w-full">
+              <Link to='/post/5' className="relative w-full">
                 <div>
                   <p className="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">12 April 2021</p>
                   <div className="absolute bottom-0 left-0 p-6">
@@ -110,9 +110,9 @@ const Blogs = () => {
                   </div>
                 </div>
                 <img src="https://dl.dropboxusercontent.com/scl/fi/01w0zfb6bq6a5egfjht4l/coaching.jpg?rlkey=52jhkkfps98ba23pb4a3xzf8z&dl=0" className="w-full rounded-2xl shadow-xl" alt="coaching" />
-              </div>
+              </Link>
 
-              <div className="relative w-full sm:mt-0 mt-4">
+              <Link to='/post/7' className="relative w-full sm:mt-0 mt-4">
                 <div>
                   <p className="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">12 April 2021</p>
                   <div className="absolute bottom-0 left-0 p-6">
@@ -127,12 +127,12 @@ const Blogs = () => {
                   </div>
                 </div>
                 <img src="https://dl.dropboxusercontent.com/scl/fi/ka9l2692ev5v2qagxmjmx/austriafacts.jpg?rlkey=45jwpm0ospyr1sf9ahn7griaf&dl=0" className="w-full rounded-2xl shadow-xl" alt="girl with books" />
-              </div>
+              </Link>
 
             </div>
           </div>
         </div>
-        <Newsletter/>
+        <Newsletter />
       </div>
     </div>
   )
