@@ -23,8 +23,33 @@ const Connect = () => {
     const [number, setNumber] = useState('')
     const [message, setMessage] = useState('')
 
+
+
     const handleSubmit = async (e) => {
         e.preventDefault(); //prevent the default behaviour (means relooading the browser)
+
+        // setup to get the contactus info on email
+        // Username: 'headstart@yopmail.com',
+        // Password: '682FD6827318370CDE495F6E8ECC7A8F7C5D',
+        // Host: 'smtp.elasticemail.com',
+        // Port: 2525,
+        const config = {
+            SecureToken: '2e7ccd16-022b-446b-b30a-36378e2306d2',
+            To: 'headstart@yopmail.com',
+            From: 'thetriomakers@gmail.com',
+            Subject: "Headstart - Contact Us Form",
+            Body: "Name: " + firstname + lastname 
+            + "<br /> Company: " + company 
+            + "<br /> Email: " + email 
+            + "<br /> Number: " + number 
+            + "<br /> Message: " + message
+        } 
+
+        if (window.Email) {
+            window.Email.send(config).then(
+                message => alert(message)
+            );
+        }
 
         try {
             alert("Submitted")
