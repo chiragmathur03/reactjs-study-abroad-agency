@@ -1,11 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-
-import { useState } from 'react'
-import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import { Switch } from '@headlessui/react'
+import axios from 'axios';
+import { useState } from "react";
 
 //icons
+import { ChevronDownIcon } from '@heroicons/react/20/solid'
+import { Switch } from '@headlessui/react'
 import { RiInstagramFill, RiFacebookFill, RiTwitterFill, RiYoutubeFill } from 'react-icons/ri';
 
 function classNames(...classes) {
@@ -14,6 +14,40 @@ function classNames(...classes) {
 
 const Connect = () => {
     const [agreed, setAgreed] = useState(false);
+
+    //Getting Details
+    const [firstname, setFirstname] = useState('')
+    const [lastname, setLastname] = useState('')
+    const [company, setCompany] = useState('')
+    const [email, setEmail] = useState('')
+    const [number, setNumber] = useState('')
+    const [message, setMessage] = useState('')
+
+    const handleSubmit = async (e) => {
+        e.preventDefault(); //prevent the default behaviour (means relooading the browser)
+
+        try {
+            alert("Submitted")
+            setFirstname('')
+            setLastname('')
+            setCompany('')
+            setEmail('')
+            setNumber('')
+            setMessage('')
+
+            await axios.post("http://localhost:8000/", {
+                firstname,
+                lastname,
+                company,
+                email,
+                number,
+                message
+            }) //send data from frontend to backend
+
+        } catch (error) {
+            console.error('Error submitting form:', error);
+        }
+    };
 
     return (
         // <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8"> --original
@@ -43,7 +77,7 @@ const Connect = () => {
                     We are here to assist you on your study abroad journey.
                 </p>
             </div>
-            <form action="#" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20">
+            <form action='POST' className="mx-auto mt-16 max-w-xl sm:mt-20">
                 <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                     <div>
                         <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-600">
@@ -55,7 +89,9 @@ const Connect = () => {
                                 name="first-name"
                                 id="first-name"
                                 autoComplete="given-name"
-                                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-800 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-800 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-purple-600 sm:text-sm sm:leading-6"
+                                onChange={(e) => setFirstname(e.target.value)}
+                                value={firstname}
                             />
                         </div>
                     </div>
@@ -69,10 +105,13 @@ const Connect = () => {
                                 name="last-name"
                                 id="last-name"
                                 autoComplete="family-name"
-                                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-800 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-800 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-purple-600 sm:text-sm sm:leading-6"
+                                onChange={(e) => setLastname(e.target.value)}
+                                value={lastname}
                             />
                         </div>
                     </div>
+                    {/* <div className='text-red-600'>Error</div> */}
                     <div className="sm:col-span-2">
                         <label htmlFor="company" className="block text-sm font-semibold leading-6 text-gray-600">
                             Company
@@ -83,7 +122,9 @@ const Connect = () => {
                                 name="company"
                                 id="company"
                                 autoComplete="organization"
-                                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-800 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-800 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-purple-600 sm:text-sm sm:leading-6"
+                                onChange={(e) => setCompany(e.target.value)}
+                                value={company}
                             />
                         </div>
                     </div>
@@ -97,7 +138,9 @@ const Connect = () => {
                                 name="email"
                                 id="email"
                                 autoComplete="email"
-                                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-800 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-800 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-purple-600 sm:text-sm sm:leading-6"
+                                onChange={(e) => setEmail(e.target.value)}
+                                value={email}
                             />
                         </div>
                     </div>
@@ -113,7 +156,7 @@ const Connect = () => {
                                 <select
                                     id="country"
                                     name="country"
-                                    className="h-full rounded-md border-0 bg-transparent bg-none py-0 pl-4 pr-9 text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm"
+                                    className="h-full rounded-md border-0 bg-transparent bg-none py-0 pl-4 pr-9 text-gray-400 focus:ring-2 focus:ring-inset focus:ring-purple-600 sm:text-sm"
                                 >
                                     <option>US</option>
                                     <option>IND</option>
@@ -129,7 +172,9 @@ const Connect = () => {
                                 name="phone-number"
                                 id="phone-number"
                                 autoComplete="tel"
-                                className="block w-full rounded-md border-0 px-3.5 py-2 pl-20 text-gray-800 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                className="block w-full rounded-md border-0 px-3.5 py-2 pl-20 text-gray-800 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-purple-600 sm:text-sm sm:leading-6"
+                                onChange={(e) => setNumber(e.target.value)}
+                                value={number}
                             />
                         </div>
                     </div>
@@ -142,8 +187,10 @@ const Connect = () => {
                                 name="message"
                                 id="message"
                                 rows={4}
-                                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-800 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-800 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-purple-600 sm:text-sm sm:leading-6"
                                 defaultValue={''}
+                                onChange={(e) => setMessage(e.target.value)}
+                                value={message}
                             />
                         </div>
                     </div>
@@ -154,7 +201,7 @@ const Connect = () => {
                                 onChange={setAgreed}
                                 className={classNames(
                                     agreed ? 'bg-primary' : 'bg-gray-200',
-                                    'flex w-8 flex-none cursor-pointer rounded-full p-px ring-1 ring-inset ring-gray-900/5 transition-colors duration-200 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'
+                                    'flex w-8 flex-none cursor-pointer rounded-full p-px ring-1 ring-inset ring-gray-900/5 transition-colors duration-200 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-600'
                                 )}
                             >
                                 <span className="sr-only">Agree to policies</span>
@@ -175,6 +222,8 @@ const Connect = () => {
                 <div className="mt-10">
                     <button
                         type="submit"
+                        value="Submit"
+                        onClick={handleSubmit}
                         className="block w-full rounded-xl bg-primary px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xl hover:bg-primary-hover focus:bg-primary-hover duration-300 transition-colors"
                     >
                         Let's talk

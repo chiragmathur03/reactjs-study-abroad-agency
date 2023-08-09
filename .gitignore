@@ -4,6 +4,9 @@
 updates.txt
 features.txt
 
+# mongodb model
+mongodb_models.js
+
 # dependencies
 /node_modules
 /.pnp
