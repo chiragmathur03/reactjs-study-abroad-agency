@@ -23,7 +23,7 @@ const Header = () => {
         <div className="mx-auto lg:max-w-2xl">
           <div className="hidden md:mb-8 md:flex md:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-              Announcing our Latest Program for Medical Students.{' '}
+              Introducing Our Latest AI-powered Chatbot Product{' '}
               <Link to="#" className="font-semibold text-primary">
                 <span className="absolute inset-0" aria-hidden="true" />
                 Read more <span aria-hidden="true">&rarr;</span>
@@ -32,11 +32,11 @@ const Header = () => {
           </div>
           <div className="text-center">
             <h1 className="text-4xl font-semibold tracking-tight text-gray-800 sm:text-5xl">
-              Create Pathways for Students to <span className='text-primary'>Study Abroad.</span>
+              OnlyAI helps Businesses with <span className='text-primary'> AI Solutions </span>
             </h1>
             <p className="flex justify-center mt-6 text-sm text-gray-700 font-medium lg:text-base">
               <span className='w-4/6'>
-                We Think About You & Strive to Deliver the Best Because You Deserve the Best.
+                We Innovate, Customize, and Deploy AI Solutions to Revolutionize Your Business Operations.
               </span>
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
@@ -46,7 +46,7 @@ const Header = () => {
                 Connect
               </Link>
               <Link to="/programs" className="text-sm font-semibold flex items-center gap-1.5 leading-6 text-gray-700 hover:text-gray-500  duration-300 transition-colors">
-                Our Programs<FaArrowRight />
+                Our Products<FaArrowRight />
               </Link>
             </div>
           </div>
