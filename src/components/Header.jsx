@@ -32,11 +32,11 @@ const Header = () => {
           </div>
           <div className="text-center">
             <h1 className="text-4xl font-semibold tracking-tight text-gray-800 sm:text-5xl">
-              Create Pathways for Students to <span className='text-primary'>Study Abroad.</span>
+              OnlyAI Empowers Businesses with Intelligent to <span className='text-primary'>AI Solutions </span>
             </h1>
             <p className="flex justify-center mt-6 text-sm text-gray-700 font-medium lg:text-base">
               <span className='w-4/6'>
-                We Think About You & Strive to Deliver the Best Because You Deserve the Best.
+                We Innovate, Customize, and Deploy AI Technologies to Revolutionize Your Business Operations.
               </span>
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
