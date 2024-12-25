@@ -30,7 +30,7 @@ const Footer = () => {
                     </Link>
                     <div className="mt-4 lg:max-w-sm">
                         <p className="text-sm text-gray-700 leading-6">
-                            Welcome to HeadStart International Education Consultancy, your trusted partner in the journey towards higher education in the world's top universities.
+                            Welcome to OnlyAI, your trusted partner in harnessing the power of Artificial Intelligence to transform your business with cutting-edge solutions like chatbots, voicebots, and customized AI tools
                         </p>
                     </div>
                 </div>
@@ -132,7 +132,7 @@ const Footer = () => {
             </div>
             <div className="flex flex-col justify-between pt-5 pb-10 border-t sm:flex-row">
                 <p className="text-sm text-gray-600">
-                    © Copyright 2023 Headstart. All rights reserved.
+                    © Copyright 2024 OnlyAI. All rights reserved.
                 </p>
                 <div className="flex items-center mt-4 space-x-4 sm:mt-0">
                     {/* <Link
