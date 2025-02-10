@@ -14,4 +14,7 @@ A company website for commercial use.
 
 ## Status
 
-Completed (Working on Improvements)
+Completed
+
+## Note
+I think the code it not optimized or well written because I'm learning at that time.
